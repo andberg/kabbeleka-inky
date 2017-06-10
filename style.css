@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arbutus Slab', serif;
+    background-color: hsl(150, 14%, 68%)
+}
+
+h1 {
+    text-indent: 50px;
+    font-weight: lighter;
+}
+img, video {
+    width: 100%;
+    max-width: 1200px; 
+}
+.container {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p, a {
+    color: black;
+    line-height: 1.7em;
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+p, img, video {
+    opacity: 0.0;
+    transition: opacity 1.0s;
+}
+video {
+    margin-top: 2rem; 
+}
+
+
+p.show, img.show, video.show {
+    opacity: 1.0;
+}
+
+p.choice {
+    text-indent: 30px;
+}
+
+a:hover {
+    background-color: white; 
+}
