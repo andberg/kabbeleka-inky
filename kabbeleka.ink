@@ -21,7 +21,7 @@
 
 === kapitel2 ===
 
-Ljudet av bilen som kör upp på en grusväg. Tove kliver ut, öppnar bagageluckan och plockar ut sin väska. Samtidigt som bagageluckan stängs hör du hur ljudet från en dörr öppnas en bit därifrån.
+Ljudet av bilen som kör upp på en grusväg. Tove kliver ut, öppnar bagageluckan och plockar ut sin väska. Samtidigt som bagageluckan stängs hörs ljudet från en dörr öppnas en liten bit därifrån.
 
 "Men underbara du, vad sen du blev. Det måste ha varit en förfärligt lång resa. Kom in, jag har förberett fika."
 
