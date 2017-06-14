@@ -57,7 +57,7 @@
                 }, delay);
             } else {
                 setTimeout(function () {
-                    document.getElementsByTagName("body")[0].classList.remove("dark")
+                    document.getElementsByTagName("body")[0].classList.remove("dark");
                 }, delay);
             }
             return 0.0;
@@ -130,7 +130,7 @@
             // Create paragraph with anchor element
             var choiceParagraphElement = document.createElement("p");
             choiceParagraphElement.classList.add("choice");
-            choiceParagraphElement.innerHTML = `<a href='#'>${choice.text}</a>`
+            choiceParagraphElement.innerHTML = `<a href='#'>${choice.text}</a>`;
             storyContainer.appendChild(choiceParagraphElement);
 
             // Fade choice in after a short delay
