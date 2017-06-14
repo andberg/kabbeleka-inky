@@ -2,10 +2,12 @@ body {
     font-family: 'Arbutus Slab', serif;
     background-color: #A2B9AD; 
     color: black;
+    transition: background-color 1s ease;
 }
 body.dark {
     background-color: black; 
     color: white;
+    transition: background-color 1s ease;
 }
 body.dark a {
     color: white;
