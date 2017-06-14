@@ -1,6 +1,18 @@
 body {
     font-family: 'Arbutus Slab', serif;
-    background-color: hsl(150, 14%, 68%)
+    background-color: #A2B9AD; 
+    color: black;
+}
+body.dark {
+    background-color: black; 
+    color: white;
+}
+body.dark a {
+    color: white;
+}
+
+body.dark a:hover {
+    background-color: #A2B9AD;
 }
 
 h1 {
@@ -19,12 +31,12 @@ img, video {
 }
 
 p, a {
-    color: black;
     line-height: 1.7em;
     font-size: 1.5rem;
     max-width: 600px;
     margin: 0 auto;
     margin-top: 2rem;
+    color: black;
 }
 
 p, img, video {
@@ -34,7 +46,6 @@ p, img, video {
 video {
     margin-top: 2rem; 
 }
-
 
 p.show, img.show, video.show {
     opacity: 1.0;
@@ -46,4 +57,8 @@ p.choice {
 
 a:hover {
     background-color: white; 
+}
+
+.hidden {
+    display: none; 
 }
