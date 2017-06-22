@@ -1,5 +1,7 @@
-INCLUDE kapitel/kapitel1
-INCLUDE kapitel/kapitel2
+INCLUDE kapitel1
+INCLUDE kapitel2
+INCLUDE kapitel3
+
 
 -> kabbeleka
 
@@ -12,5 +14,3 @@ INCLUDE kapitel/kapitel2
 
 *	Kapitel 1
     -> kapitel1
-
-
