@@ -72,7 +72,7 @@
         if (tag.indexOf("url:") == 0) {
             url = tag.substr(4);
             setTimeout(function () {
-                window.open(url)
+                window.open(url);
             }, delay);
         }
 
