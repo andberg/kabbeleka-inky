@@ -1,5 +1,6 @@
 === kapitel2 ===
 
+# save
 # clear
 # backgroundColor:light
 # fontColor:black

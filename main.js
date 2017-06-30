@@ -101,6 +101,7 @@
             }
             return 0.0;
         }
+        return 0.0;
     }
 
     function continueStory() {
@@ -111,11 +112,24 @@
         // Generate story text - loop through available content
         while (story.canContinue) {
 
-            // Get ink to generate the next paragraph
+            //Get ink to generate the next paragraph
             var paragraphText = story.Continue();
+            var currentTags = story.currentTags;
+
+            if (currentTags[0] == "save") {
+                localStorage.setItem("inkParagraphText", paragraphText);
+                localStorage.setItem("inkCurrentTags", JSON.stringify(currentTags))
+                localStorage.setItem("inkStoryState", story.state.toJson());
+            }
+
+            if (story.currentTags[0] == "load" && localStorage.getItem("inkParagraphText") != null) {
+                paragraphText = localStorage.getItem("inkParagraphText");
+                currentTags = JSON.parse(localStorage.getItem("inkCurrentTags"));
+                story.state.LoadJson(localStorage.getItem("inkStoryState"));
+            }
 
             // Process Tags
-            story.currentTags.forEach(function (tag) {
+            currentTags.forEach(function (tag) {
                 extraDelay = ProcessTag(tag, delay);
                 delay += extraDelay;
             });
