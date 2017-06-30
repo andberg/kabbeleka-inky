@@ -1,6 +1,6 @@
-INCLUDE kapitel1
-INCLUDE kapitel2
-INCLUDE kapitel3
+INCLUDE kapitel1.ink
+INCLUDE kapitel2.ink
+INCLUDE kapitel3.ink
 
 
 -> kabbeleka
