@@ -72,17 +72,16 @@
             return 0.0;
         }
 
-<<<<<<< HEAD
         if (tag.indexOf("wait:") == 0) {
             duration = tag.substr(5);
             return Number(duration);
-=======
+        }
+
         if (tag.indexOf("url:") == 0) {
             url = tag.substr(4);
             setTimeout(function () {
                 window.open(url);
             }, delay);
->>>>>>> c4d4d7ffa75f2e166c2208f831d6cf92da4b186d
         }
 
         if (tag.indexOf("clear") == 0) {
