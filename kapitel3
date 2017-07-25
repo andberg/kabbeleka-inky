@@ -8,7 +8,10 @@ Tove följer efter sin farmor in i huset. Själv stannar hon upp vid ett par bil
 -> Bildspel
 
 === Bildspel ===
-// Bildspel 
+# clear
+# backgroundColor: dark
+# wait 2000
+# video: Bildspel.mp4
 
 * Kapitel 4 
 -> kapitel4
