@@ -1,5 +1,6 @@
 === kapitel3 === 
 
+# save
 # clear
 
 Tove följer efter sin farmor in i huset. Själv stannar hon upp vid ett par bilder som hänger på väggen.  

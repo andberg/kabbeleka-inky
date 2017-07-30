@@ -1,5 +1,6 @@
 === kapitel1 ===
 
+# save
 # clear
 # backgroundColor: dark
 # wait 2000
