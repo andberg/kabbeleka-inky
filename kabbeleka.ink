@@ -1,6 +1,12 @@
 INCLUDE kapitel1
 INCLUDE kapitel2
 INCLUDE kapitel3
+INCLUDE kapitel4
+INCLUDE kapitel5
+INCLUDE kapitel6
+
+
+
 
 
 -> kabbeleka

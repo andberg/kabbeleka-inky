@@ -1,0 +1,120 @@
+=== kapitel5 ===
+# clear
+# backgroundColor:light
+# fontColor:black
+
+SMS: 
+"Tog du min vante?"
+
+* "Ja"
+    -> chapterFiveFirstChoice
+
+* "Nej"
+    -> chapterFiveSecondChoice
+
+=== chapterFiveFirstChoice ===
+"Men åh, jag skulle ju ha dem i helgen, nu kommer jag frysa händerna av mig. Jaja, Gick det bra att köra upp?"
+
+* "Ja, det gick bra. Har inte hunnit bli så halt ännu."
+ 
+ -> detGickBraAttKoraUpp
+
+* "Höll nästan på att köra på en ren en mil från Lycksele, men hann precis stanna."
+ -> gickInteBraAttKoraUpp
+
+
+=== chapterFiveSecondChoice ===
+
+"Då måste mamma tagit den, så typiskt henne. Gick det bra att köra upp?"
+
+* "Ja, det gick bra. Har inte hunnit bli så halt ännu."
+ 
+ -> detGickBraAttKoraUpp
+
+* "Höll nästan på att köra på en ren en mil från Lycksele, men hann precis stanna."
+ -> gickInteBraAttKoraUpp
+
+
+=== detGickBraAttKoraUpp ===
+"Skönt. Mamma hälsade förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten."
+
+* "Hon överreagerar jämt. Pappa har bett mig hjälpa till med jakten i två år nu, men jag har inte kunnat förrän nu. Det betyder mycket för honom nu när farfar inte orkar längre. Som om det är en viktig familjeritual eller nått. :/ "
+-> chapterFiveCommonOne
+
+
+=== gickInteBraAttKoraUpp ===
+
+"Men usch :O, skönt att det gick bra. Mamma hälsade förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten."
+
+* "Hon överreagerar jämt. Pappa har bett mig hjälpa till med jakten i två år nu, men jag har inte kunnat förrän nu. Det betyder mycket för honom nu när farfar inte orkar längre. Som om det är en viktig familjeritual eller nått. :/ "
+-> chapterFiveCommonOne
+
+=== chapterFiveCommonOne ===
+
+"Hur känns det då, har du bestämt dig om du vill börja öva dig att skjuta, eller ska du bara vara med och stycka köttet?"
+
+* "Nej, jag tror inte jag vill öva mig att skjuta ännu. Tror inte det är nåt för mig egentligen. Vet inte hur jag ska säga det till pappa dock? :/ "
+
+-> villInteSkjuta
+
+* "Det skulle vara roligt att prova älgstudsaren, det är ju typ därför jag kom."
+-> villSkjuta 
+
+=== villInteSkjuta ===
+
+"Jag skulle inte heller vilja skjuta. Så synd om älgen liksom. Men du löser det med pappa, du har alltid kunnat prata med honom. Mycket bättre än mig iaf!"
+
+* "Ja, jag antar att det löser sig, skulle bara vilja att denna helg är över. Vet inte om jag kommer orka sova ute i jaktstugan en hel helg med två gubbar." 
+-> vilkaBlevDetNu
+
+=== vilkaBlevDetNu === 
+"Vilka blev det nu, du, pappa och Kuno?"
+
+* "Ja, precis. Har inte sett Kuno sen farfars 70 års fest. Pratade med Nila om det i veckan, han tyckte Kuno var rätt skojig. Att gubben fortfarande pratar med folk över hela världen via sin långvågsradio. Nila försökte introducera Facebook, men det gick inte så bra :P"
+
+-> nila
+
+=== villSkjuta ===
+
+"Du är knäpp, men pappa blir nog glad. Han längtar efter att nån av oss ska typ följa i hans fotspår."
+
+* "Jo, jag vet. Vet inte om det är det jag tänker göra, tycker bara det verkar roligt att skjuta."
+-> verkarRoligtAttSkjuta
+
+* "Jo jag vet. Men det kanske inte skulle vara så illa att bo här uppe. Jag har ju alltid gillat skogen. Skönt att slippa stan ibland."
+
+-> gillatSkogen
+
+=== verkarRoligtAttSkjuta ===
+
+"Du ska alltid vara så badass."
+
+* "Det är det jag lever för. Nej, men jag tycker det ska bli spännande. Jag och Nila pratade om det i veckan att vi gärna skulle kunna klara oss utanför samhället typ. Kunna skjuta för att få mat, eller lära oss odling eller sånt."
+
+-> nila
+
+* "Det är alltid roligt att lära sig nya saker. Nila tyckte jakten lät spännande, hade gärna följt med om hen inte hade tenta i helgen."
+
+-> nila
+
+=== gillatSkogen === 
+
+"Jag skulle aldrig kunna bo så långt från civilisationen. Skulle bli Jack Nicholson i the Shining."
+
+* "Haha, ja, jag kan se det farmför mig, hur du står med kniven i farstun i pappas hus. Skriker here's Lailá! Men jag tror jag skulle klara mig bättre, både jag och Nila har alltid identifierat oss mer med Scatman Crothers karaktär..."
+
+-> nila
+
+=== nila ===
+
+"Du umgås mycket med henom nu :)"
+
+* "Vet du Laila, nu tror jag att jag hör pappas fyrhjuling. Måste börja göra mig i ordning. Jag hör av mig när vi kommer tillbaks från radioskuggan. Hälsa mamma. Kram"
+    -> adjoLaila
+    
+=== adjoLaila === 
+
+"Okej. Ha det fint och var försiktig i skogen."
+
+-> kapitel6
+
