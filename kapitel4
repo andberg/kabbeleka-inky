@@ -1,8 +1,19 @@
 === kapitel4 === 
 
 # clear
+# backgroundColor: dark
+# wait 2000
+# video: Till-Jaktstugan.mp4
 
-SMS: 
+* SMS 
+    -> vante
+
+=== vante ===
+
+# clear
+# backgroundColor:light
+# fontColor:black
+
 "Tog du min vante?"
 
 * "Ja"
