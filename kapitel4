@@ -1,44 +1,119 @@
 === kapitel4 === 
 
 # clear
-# backgroundColor:light
-# fontColor:black
 
-Träden står i raka rader längs landsvägen. Odlade i sjok, kvadratiska mattor i olika nyanser av grönt. Olika stadier av växt. 
+SMS: 
+"Tog du min vante?"
 
-Vid slutet av landsvägen där kryddas skogen av Fjällbjörk, Daggkåpa, Kabbeleka och vindpinade buskar. Ensligheten ovanför odlingsgränsen, tomma stugor utan el och rinnande vatten.
+* "Ja"
+    -> chapterFiveFirstChoice
 
-Utanför huset ligger klyvd ved, såg och yxa. Tomma bensindunkar, gamla skotermattor, renskinn.
+* "Nej"
+    -> chapterFiveSecondChoice
 
-* Vidare 
- -> samtalMellanFarmorOchFarfar
+=== chapterFiveFirstChoice ===
+"Men åh, jag skulle ju ha dem i helgen, nu kommer jag frysa händerna av mig. Jaja, Gick det bra att köra upp?"
 
-=== samtalMellanFarmorOchFarfar === 
+* "Ja, det gick bra. Har inte hunnit bli så halt ännu."
+ 
+ -> detGickBraAttKoraUpp
 
-# clear 
+* "Höll nästan på att köra på en ren en mil från Lycksele, men hann precis stanna."
+ -> gickInteBraAttKoraUpp
 
-Tove hör steg utanför ytterdörren. Farfar har gått bakvägen för att hämta mer ved från garaget. Det är ljud hon känner igen. Trygga ljud. Hon kan höra att han har sina stora Tenton stövlar på sig, dom han lagat skaftet med gaffatejp. De är förstora och di ramlar ner mot gruset innan själva foten kommer med kroppens tyngd mot sulan. 
 
-Hon hör sin farmor som kommer efter.
+=== chapterFiveSecondChoice ===
 
-"Tror du verkligen att det är säkert för henne att följa med?"
+"Då måste mamma tagit den, så typiskt henne. Gick det bra att köra upp?"
 
-"Hon kommer gå, oavsett vad vi säger."
+* "Ja, det gick bra. Har inte hunnit bli så halt ännu."
+ 
+ -> detGickBraAttKoraUpp
 
-"Men om vi berättar för henne hur det kan bli?"
+* "Höll nästan på att köra på en ren en mil från Lycksele, men hann precis stanna."
+ -> gickInteBraAttKoraUpp
 
-"Ja, men vad ska du säga? Du vet att du inte kan berätta för henne."
 
-"Jag har en olustig känsla."
+=== detGickBraAttKoraUpp ===
+"Skönt. Mamma hälsade förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten."
 
-"Det har du alltid när det kommer till far hennes."
+* "Hon överreagerar jämt. Pappa har bett mig hjälpa till med jakten i två år nu, men jag har inte kunnat förrän nu. Det betyder mycket för honom nu när farfar inte orkar längre. Som om det är en viktig familjeritual eller nått. :/ "
+-> chapterFiveCommonOne
 
-I garaget hörs deras röster inte lika tydligt. 
 
-"Tror du verkligen att hon kan komma att förändras? Ja det är hennes först jakt, men det kanske blir hennes enda. Vi vet inte om hon kommer vilja fortsätta traditionen... Våldet har skippat generationer tidigare, vi kan bara gissa... Och Kuno är med, han kan berätta och ..."
+=== gickInteBraAttKoraUpp ===
 
-"Ja, vi måste in nu, hon undrar ju säkert vart vi håller hus. Låt mig hjälpa med veden nu."
+"Men usch :O, skönt att det gick bra. Mamma hälsade förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten."
 
-* Kapitel 5
-    -> kapitel5
+* "Hon överreagerar jämt. Pappa har bett mig hjälpa till med jakten i två år nu, men jag har inte kunnat förrän nu. Det betyder mycket för honom nu när farfar inte orkar längre. Som om det är en viktig familjeritual eller nått. :/ "
+-> chapterFiveCommonOne
+
+=== chapterFiveCommonOne ===
+
+"Hur känns det då, har du bestämt dig om du vill börja öva dig att skjuta, eller ska du bara vara med och stycka köttet?"
+
+* "Nej, jag tror inte jag vill öva mig att skjuta ännu. Tror inte det är nåt för mig egentligen. Vet inte hur jag ska säga det till pappa dock? :/ "
+
+-> villInteSkjuta
+
+* "Det skulle vara roligt att prova älgstudsaren, det är ju typ därför jag kom."
+-> villSkjuta 
+
+=== villInteSkjuta ===
+
+"Jag skulle inte heller vilja skjuta. Så synd om älgen liksom. Men du löser det med pappa, du har alltid kunnat prata med honom. Mycket bättre än mig iaf!"
+
+* "Ja, jag antar att det löser sig, skulle bara vilja att denna helg är över. Vet inte om jag kommer orka sova ute i jaktstugan en hel helg med två gubbar." 
+-> vilkaBlevDetNu
+
+=== vilkaBlevDetNu === 
+"Vilka blev det nu, du, pappa och Kuno?"
+
+* "Ja, precis. Har inte sett Kuno sen farfars 70 års fest. Pratade med Nila om det i veckan, han tyckte Kuno var rätt skojig. Att gubben fortfarande pratar med folk över hela världen via sin långvågsradio. Nila försökte introducera Facebook, men det gick inte så bra :P"
+
+-> nila
+
+=== villSkjuta ===
+
+"Du är knäpp, men pappa blir nog glad. Han längtar efter att nån av oss ska typ följa i hans fotspår."
+
+* "Jo, jag vet. Vet inte om det är det jag tänker göra, tycker bara det verkar roligt att skjuta."
+-> verkarRoligtAttSkjuta
+
+* "Jo jag vet. Men det kanske inte skulle vara så illa att bo här uppe. Jag har ju alltid gillat skogen. Skönt att slippa stan ibland."
+
+-> gillatSkogen
+
+=== verkarRoligtAttSkjuta ===
+
+"Du ska alltid vara så badass."
+
+* "Det är det jag lever för. Nej, men jag tycker det ska bli spännande. Jag och Nila pratade om det i veckan att vi gärna skulle kunna klara oss utanför samhället typ. Kunna skjuta för att få mat, eller lära oss odling eller sånt."
+
+-> nila
+
+* "Det är alltid roligt att lära sig nya saker. Nila tyckte jakten lät spännande, hade gärna följt med om hen inte hade tenta i helgen."
+
+-> nila
+
+=== gillatSkogen === 
+
+"Jag skulle aldrig kunna bo så långt från civilisationen. Skulle bli Jack Nicholson i the Shining."
+
+* "Haha, ja, jag kan se det farmför mig, hur du står med kniven i farstun i pappas hus. Skriker here's Lailá! Men jag tror jag skulle klara mig bättre, både jag och Nila har alltid identifierat oss mer med Scatman Crothers karaktär..."
+
+-> nila
+
+=== nila ===
+
+"Du umgås mycket med henom nu :)"
+
+* "Vet du Laila, nu tror jag att jag hör pappas fyrhjuling. Måste börja göra mig i ordning. Jag hör av mig när vi kommer tillbaks från radioskuggan. Hälsa mamma. Kram"
+    -> adjoLaila
+    
+=== adjoLaila === 
+
+"Okej. Ha det fint och var försiktig i skogen."
+
+-> kapitel5
 

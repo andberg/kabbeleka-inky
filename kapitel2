@@ -12,7 +12,6 @@ Ljudet av bilen som kör upp på en grusväg. Tove kliver ut, öppnar bagageluck
 -> kapitel2FirstDialog
 
 
-
 === kapitel2FirstDialog ===
 "Tänk att far din fått med dig på detta. Ut i skogen med gevär och allt."
  
@@ -27,20 +26,20 @@ Ljudet av bilen som kör upp på en grusväg. Tove kliver ut, öppnar bagageluck
 
 
 === kapitel2SecondDialog ===
-"Ja, jag antar att du har rätt... Här, låt mig ta väskan. Och di kommer att behöva din hjälp i skogen utifall di fäller en, det är ju ett som är säkert. Jag kommer ihåg för ett par höstar sen när Kuno sköt tolv-taggaren. Det tog oss två dagar bara att få ner den till garaget för att kunna påbörja slakten. Redan då hade farfar inte samma ork."
+"Ja, jag antar att du har rätt... Här, låt mig ta väskan. Och de kommer att behöva din hjälp i skogen utifall ni fäller en, det är ju ett som är säkert. Jag kommer ihåg för ett par höstar sen när Kuno sköt tolv-taggaren. Det tog oss två dagar bara att få ner den till garaget för att kunna påbörja slakten. Redan då hade farfar inte samma ork."
 
 "Det är väl därför jag får vara med nu, som en extra hjälp eller nått. Även om det är lite oklart ännu vad de kommer låta mig få göra."
 
 "Har du funderat på om du kommer vilja använda farfars bössa ännu?"
 
 * "Jag vet inte ännu."
--> kapitel2FourthDialog
+-> kapitel2ThirdDialog
 
 * "Jag tror det, jag har ju trots allt tagit licensen."
 -> kapitel2ThirdDialog
 
 * "Nej, det vill jag inte." 
--> kapitel2FourthDialog
+-> kapitel2ThirdDialog
 
 
 === kapitel2ThirdDialog ===
@@ -50,16 +49,7 @@ Ljudet av bilen som kör upp på en grusväg. Tove kliver ut, öppnar bagageluck
 
 "Kom så går vi in, du behöver få i dig något innan det är dags för sängen."
 
-* Kapitel 3
--> kapitel3
-
-
-=== kapitel2FourthDialog ===
-"Ja, du är ju så ung ännu... och tänk om det skulle hända dig något. Farfar skulle aldrig förlåta sig själv."
-
-"Pappa då?"
-
-"Kom så går vi in, du behöver få i dig något innan det är dags för sängen."
+Tove följer efter sin farmor in i huset. Farmodern går längre in mot husets baksida och Tove stannar i gästrummet. 
 
 * Kapitel 3
 -> kapitel3
