@@ -5,15 +5,10 @@ INCLUDE kapitel4
 INCLUDE kapitel5
 INCLUDE kapitel6
 
-
-
-
-
 -> kabbeleka
 
 === kabbeleka ===
 
-# img:Logotyp.png
 # wait:1500
 # img:Logotyp-kabbeleka.png
 # wait:1500

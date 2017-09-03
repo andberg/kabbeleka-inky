@@ -21,9 +21,14 @@ h1 {
     text-indent: 50px;
     font-weight: lighter;
 }
-img, video {
+video {
     width: 100%;
     max-width: 1200px; 
+}
+img {
+    width: auto;
+    display: block;
+    margin: 0 auto;
 }
 .container {
     display: block;
