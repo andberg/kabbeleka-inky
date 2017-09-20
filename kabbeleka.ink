@@ -16,3 +16,12 @@ INCLUDE kapitel6
 
 *	Kapitel 1
     -> kapitel1
+* Fortsätt från senast...
+    -> load
+    
+=== load ===
+# load
+# clear
+Inget sparat spel hittades.
+*   Kapitel 1
+    -> kapitel1
