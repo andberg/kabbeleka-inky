@@ -35,6 +35,7 @@
             element.src = fileName;
             storyContainer.appendChild(element);
             showAfter(delay, element);
+            return 200.0;
         }
 
         if (tag.indexOf("video:") == 0) {
@@ -45,6 +46,7 @@
             element.src = fileName;
             storyContainer.appendChild(element);
             showAfter(delay, element);
+            return 200.0;
         }
 
         if (tag.indexOf("backgroundColor:") == 0) {
@@ -55,10 +57,10 @@
                 }, delay);
             } else {
                 setTimeout(function () {
-                    document.getElementsByTagName("body")[0].classList.remove("dark")
+                    document.getElementsByTagName("body")[0].classList.remove("dark");
                 }, delay);
             }
-
+            return 0.0;
         }
 
         if (tag.indexOf("fontColor:") == 0) {
@@ -67,6 +69,12 @@
             setTimeout(function () {
                 document.getElementsByTagName("body")[0].style.color = color;
             }, delay);
+            return 0.0;
+        }
+
+        if (tag.indexOf("wait:") == 0) {
+            duration = tag.substr(5);
+            return Number(duration);
         }
 
         if (tag.indexOf("url:") == 0) {
@@ -78,11 +86,22 @@
 
         if (tag.indexOf("clear") == 0) {
             var existingContent = storyContainer.querySelectorAll("p, a, img, video");
-            for (var i = 0; i < existingContent.length; i++) {
-                var c = existingContent[i];
-                c.parentNode.removeChild(c);
+            if (delay <= 200.0) {
+                for (var i = 0; i < existingContent.length; i++) {
+                    var c = existingContent[i];
+                    c.parentNode.removeChild(c);
+                }
+            } else {
+                setTimeout(function () {
+                    for (var i = 0; i < existingContent.length; i++) {
+                        var c = existingContent[i];
+                        c.parentNode.removeChild(c);
+                    }
+                }, delay);
             }
+            return 0.0;
         }
+        return 0.0;
     }
 
     function continueStory() {
@@ -93,19 +112,26 @@
         // Generate story text - loop through available content
         while (story.canContinue) {
 
-            // Get ink to generate the next paragraph
+            //Get ink to generate the next paragraph
             var paragraphText = story.Continue();
+            var currentTags = story.currentTags;
+
+            if (currentTags[0] == "save") {
+                localStorage.setItem("inkParagraphText", paragraphText);
+                localStorage.setItem("inkCurrentTags", JSON.stringify(currentTags))
+                localStorage.setItem("inkStoryState", story.state.toJson());
+            }
+
+            if (story.currentTags[0] == "load" && localStorage.getItem("inkParagraphText") != null) {
+                paragraphText = localStorage.getItem("inkParagraphText");
+                currentTags = JSON.parse(localStorage.getItem("inkCurrentTags"));
+                story.state.LoadJson(localStorage.getItem("inkStoryState"));
+            }
 
             // Process Tags
-            story.currentTags.forEach(function (tag) {
-                if (tag.indexOf("wait:") == 0) {
-                    duration = tag.substr(5);
-                    delay += Number(duration);
-                } else {
-                    ProcessTag(tag, delay);
-                }
-
-                delay += 200.0;
+            currentTags.forEach(function (tag) {
+                extraDelay = ProcessTag(tag, delay);
+                delay += extraDelay;
             });
 
             // Create paragraph element
@@ -125,7 +151,7 @@
             // Create paragraph with anchor element
             var choiceParagraphElement = document.createElement("p");
             choiceParagraphElement.classList.add("choice");
-            choiceParagraphElement.innerHTML = `<a href='#'>${choice.text}</a>`
+            choiceParagraphElement.innerHTML = `<a href='#'>${choice.text}</a>`;
             storyContainer.appendChild(choiceParagraphElement);
 
             // Fade choice in after a short delay
