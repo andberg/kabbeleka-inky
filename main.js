@@ -118,11 +118,11 @@
 
             if (currentTags[0] == "save") {
                 localStorage.setItem("inkParagraphText", paragraphText);
-                localStorage.setItem("inkCurrentTags", JSON.stringify(currentTags))
+                localStorage.setItem("inkCurrentTags", JSON.stringify(currentTags));
                 localStorage.setItem("inkStoryState", story.state.toJson());
             }
 
-            if (story.currentTags[0] == "load" && localStorage.getItem("inkParagraphText") != null) {
+            if (story.currentTags[0] == "load" && localStorage.getItem("inkParagraphText") !== null) {
                 paragraphText = localStorage.getItem("inkParagraphText");
                 currentTags = JSON.parse(localStorage.getItem("inkCurrentTags"));
                 story.state.LoadJson(localStorage.getItem("inkStoryState"));

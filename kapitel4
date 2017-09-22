@@ -1,5 +1,6 @@
 === kapitel4 === 
 
+# save
 # clear
 # backgroundColor: dark
 # wait 2000
@@ -10,6 +11,7 @@
 
 === vante ===
 
+# save
 # clear
 # backgroundColor:light
 # fontColor:black
