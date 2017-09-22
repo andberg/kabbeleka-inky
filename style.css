@@ -29,6 +29,7 @@ img {
     width: auto;
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 .container {
     display: block;
@@ -39,11 +40,16 @@ img {
 
 p, a {
     line-height: 1.7em;
-    font-size: 1.5rem;
+    font-size: 1rem;
     max-width: 600px;
     margin: 0 auto;
     margin-top: 2rem;
     color: black;
+}
+@media (min-width: 864px){
+    p, a {
+        font-size: 1.3rem;
+    }
 }
 
 p, img, video {

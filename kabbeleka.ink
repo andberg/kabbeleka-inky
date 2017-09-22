@@ -12,10 +12,6 @@ INCLUDE slut3
 
 
 
-
-
-
-
 -> kabbeleka
 
 === kabbeleka ===
@@ -24,9 +20,9 @@ INCLUDE slut3
 # img:Logotyp-kabbeleka.png
 # wait:1500
 
-*	Kapitel 1
+* Kapitel 1
     -> kapitel1
-* Fortsätt från senast...
+* Fortsätt påbörjat spel
     -> load
     
 === load ===
