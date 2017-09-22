@@ -4,6 +4,16 @@ INCLUDE kapitel3
 INCLUDE kapitel4
 INCLUDE kapitel5
 INCLUDE kapitel6
+INCLUDE kapitel7
+INCLUDE kapitel8
+INCLUDE slut1
+INCLUDE slut2
+INCLUDE slut3
+
+
+
+
+
 
 
 -> kabbeleka
