@@ -2,15 +2,55 @@
 
 # save
 # clear
+# backgroundColor: dark
+# wait:1500
+# img:Algtorn.jpg
 
-Tove säger adjö till farföräldrarna och går till jaktstugan.
+* >>
+    -> traden
+    
+=== traden === 
+# clear
+# backgroundColor: light
+
+Träden står i raka rader längs landsvägen. Odlade i sjok, kvadratiska mattor i olika nyanser av grönt. Olika stadier av växt. 
+
+Vid slutet av landsvägen där kryddas skogen av Fjällbjörk, Daggkåpa, Kabbeleka och vindpinade buskar. Ensligheten ovanför odlingsgränsen, tomma stugor utan el och rinnande vatten.
+
+Utanför huset ligger klyvd ved, såg och yxa. Tomma bensindunkar, gamla skotermattor, renskinn.
+
+* >> 
+    -> traden2
+    
+=== traden2 ===
+# clear
+
+Inuti huset finns märken ristade på väggarna. Det hänger tavlor på människor som inte längre lever. Trasmattor klär golvet tillsammans med en flaska tändvätska, spisen, brasved och döda insekter.
+
+Huset tillhörde ett hemman, men nu är delar av marken runtom avsåld för att täcka skulder och inköp. Träd byttes mot en ny fyrhjuling. Myrmarker fick stå för reparationer efter stormen Gudrun. 
+
+Folk har levt där inne. Nu är det endast ett hem för minnen av våld och dem som jagar ett par veckor på år. 
+
+ ....
+
+Tidigt nästa morgon tar sig Tove
+
+* Till jaktstugan
+-> tillJaktstugan
+
+=== tillJaktstugan === 
+
+# clear
+# save
+# backgroundColor: dark
+# wait 2000
+# video: Till-Jaktstugan.mp4
 
 * SMS 
     -> vante
 
 === vante ===
 
-# save
 # clear
 # backgroundColor:light
 # fontColor:black
@@ -26,7 +66,7 @@ Tove säger adjö till farföräldrarna och går till jaktstugan.
 === chapterFiveFirstChoice ===
 "Men åh, jag skulle ju ha dem i helgen, nu kommer jag frysa händerna av mig. Jaja, Gick det bra att köra upp?"
 
-* "Ja, det gick bra. Har inte hunnit bli så halt ännu."
+* "Ja, det gick bra Laila. Hade inte hunnit bli så halt ännu."
  
  -> detGickBraAttKoraUpp
 
@@ -127,5 +167,6 @@ Tove säger adjö till farföräldrarna och går till jaktstugan.
 
 "Okej. Ha det fint och var försiktig i skogen."
 
--> kapitel5
+* Kapitel 5
+    -> kapitel5
 

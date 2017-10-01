@@ -2,44 +2,48 @@
 
 # save
 # clear
+# backgroundColor: dark
+# img: frilagd-alg.png
 
-Träden står i raka rader längs landsvägen. Odlade i sjok, kvadratiska mattor i olika nyanser av grönt. Olika stadier av växt. 
 
-Vid slutet av landsvägen där kryddas skogen av Fjällbjörk, Daggkåpa, Kabbeleka och vindpinade buskar. Ensligheten ovanför odlingsgränsen, tomma stugor utan el och rinnande vatten.
+* >>
+    -> liteSenare
 
-Utanför huset ligger klyvd ved, såg och yxa. Tomma bensindunkar, gamla skotermattor, renskinn.
 
-* Vidare 
- -> samtalMellanFarmorOchFarfar
+=== liteSenare ====
 
-=== samtalMellanFarmorOchFarfar === 
-
-# save
-# clear 
+# clear
+# backgroundColor: light
 
 Tove hör steg utanför ytterdörren. Farfar har gått ut bakvägen för att hämta mer ved från garaget. Det är ljud hon känner igen. Trygga ljud.
 
 Hon hör sin farmor som kommer efter.
 
-* Vidare
+* >>
 -> samtalistovlar
 
 === samtalistovlar ===
 
-# save
 # clear 
 
-"Tror du verkligen att det är säkert för henne att följa med?"
+"Tror du verkligen att det är säkert för henne att följa med Erland?"
 
 "Hon kommer gå, oavsett vad vi säger."
 
 "Men om vi berättar för henne hur det kan bli?"
 
-"Ja, men vad ska du säga? Du vet att du inte kan berätta för henne."
+"Ja, men vad ska du säga henne Anna? Du vet att du inte kan berätta."
 
 "Jag har en olustig känsla."
 
 "Det har du alltid när det kommer till far hennes."
+
+* >> 
+-> samtalistovlar2
+
+== samtalistovlar2 === 
+
+#clear
 
 I garaget hörs deras röster inte lika tydligt. 
 
