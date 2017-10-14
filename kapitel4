@@ -33,7 +33,7 @@ Folk har levt där inne. Nu är det endast ett hem för minnen av våld och dem 
 
  ....
 
-Tidigt nästa morgon tar sig Tove
+Tidigt nästa morgon tar sig Tove dit,
 
 * Till jaktstugan
 -> tillJaktstugan
@@ -44,7 +44,7 @@ Tidigt nästa morgon tar sig Tove
 # save
 # backgroundColor: dark
 # wait 2000
-# video: Till-jaktstugan.mp4
+# img: Till-jaktstugan.jpg
 
 * SMS 
     -> vante
@@ -160,14 +160,22 @@ Tidigt nästa morgon tar sig Tove
 
 "Du umgås mycket med henom nu :)"
 
-# img: Fyrhjuling-vid-jaktstuga.jpg
-
 * "Vet du Laila, nu tror jag att jag hör pappas fyrhjuling. Måste börja göra mig i ordning. Jag hör av mig när vi kommer tillbaks från radioskuggan. Hälsa mamma. Kram"
     -> adjoLaila
     
 === adjoLaila === 
 
 "Okej. Ha det fint och var försiktig i skogen."
+
+* >> 
+-> pappaPaFyrhjuling
+
+=== pappaPaFyrhjuling === 
+
+# save
+# clear
+# backgroundColor: dark
+# img: Fyrhjuling-vid-jaktstuga.jpg
 
 * Kapitel 5
     -> kapitel5

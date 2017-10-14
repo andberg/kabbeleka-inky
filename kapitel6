@@ -1,8 +1,16 @@
 === kapitel6 ===
 # save
 # clear
+# backgroundColor: dark
+# img: eld-i-skogen.jpg
 
-Kapitel 6 
+* >>
+    -> kunosBerattelse
+
+=== kunosBerattelse === 
+# save
+# clear
+# backgroundColor: light
 
 Tove, pappan och Kuno är tillbaks vid jaktstugan och Kuno berättar om något som har med familjens arv att göra. 
 

@@ -26,6 +26,18 @@ INCLUDE slut3
 * Fortsätt påbörjat spel
     -> load
     
+    
+* Kapitel 3 
+    -> kapitel3
+
+* Kapitel 4 
+    -> kapitel4
+
+* Kapitel 5
+    -> kapitel5
+* Innan kuno
+    -> pappaPaFyrhjuling
+    
 === load ===
 # load
 # clear
