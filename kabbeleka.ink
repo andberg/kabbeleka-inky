@@ -25,6 +25,16 @@ INCLUDE slut3
 * Fortsätt påbörjat spel
     -> load
     
+    
+* Kapitel 3 
+    -> kapitel3
+
+* Kapitel 6 
+    -> kapitel6
+
+* Kapitel 5
+    -> kapitel5
+
 === load ===
 # load
 # clear
