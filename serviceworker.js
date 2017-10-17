@@ -9,7 +9,6 @@ var urlsToCache = [
   '/main.js',
   '/ink.js',
   '/swregistration.js',
-  '/serviceworker.js',
 
   '/Algtorn.jpg',
   '/Arrow.png',
@@ -21,7 +20,8 @@ var urlsToCache = [
   '/Till-jaktstugan.jpg',
   '/Zombie.png',
 
-  '/Bilresa.mp4'
+  '/Bilresa.mp4',
+  '/Bildspel.mp4'
 
 ];
 
