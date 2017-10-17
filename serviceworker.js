@@ -1,27 +1,27 @@
 var cacheName = 'kabbeleka-cache';
 var cacheWhitelist = ['kabbeleka-cache'];
 var urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
+  './',
+  './index.html',
+  './style.css',
 
-  '/kabbeleka.js',
-  '/main.js',
-  '/ink.js',
-  '/swregistration.js',
+  './kabbeleka.js',
+  './main.js',
+  './ink.js',
+  './swregistration.js',
 
-  '/Algtorn.jpg',
-  '/Arrow.png',
-  '/eld-i-skogen.jpg',
-  '/frilagd-alg.png',
-  '/Fyrhjuling-vid-jaktstuga.jpg',
-  '/Logotyp.png',
-  '/Logotyp-kabbeleka.png',
-  '/Till-jaktstugan.jpg',
-  '/Zombie.png',
+  './Algtorn.jpg',
+  './Arrow.png',
+  './eld-i-skogen.jpg',
+  './frilagd-alg.png',
+  './Fyrhjuling-vid-jaktstuga.jpg',
+  './Logotyp.png',
+  './Logotyp-kabbeleka.png',
+  './Till-jaktstugan.jpg',
+  './Zombie.png',
 
-  '/Bilresa.mp4',
-  '/Bildspel.mp4'
+  './Bilresa.mp4',
+  './Bildspel.mp4'
 
 ];
 
