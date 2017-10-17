@@ -27,6 +27,7 @@ var urlsToCache = [
 
 self.addEventListener('install', function(event) {
     // Perform install steps
+    console.log('Service Worker install called');
     event.waitUntil(
         caches.open(cacheName)
             .then(function(cache) {
@@ -37,6 +38,7 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
+    console.log('Service Worker activate called');
     event.waitUntil(
         caches.keys().then(function(cacheNames) {
           return Promise.all(
