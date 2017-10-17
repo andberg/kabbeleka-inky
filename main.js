@@ -42,7 +42,8 @@
             fileName = tag.substr(6);
             var element = document.createElement("video");
             element.controls = true;
-            element.autoplay = true;
+            //element.autoplay = true;
+            element.preload = "auto";
             element.src = fileName;
             storyContainer.appendChild(element);
             showAfter(delay, element);
