@@ -71,6 +71,7 @@ self.addEventListener('install', function(event) {
 
  event.waitUntil(
    caches.open(CURRENT_CACHES.prefetch).then(function(cache) {
+     console.log('Prefetching finished. Adding to cache.');
      return cache.addAll(urlsToPrefetch);
    })
  );
