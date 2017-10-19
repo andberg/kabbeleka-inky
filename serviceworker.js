@@ -57,7 +57,7 @@ var urlsToPrefetch = [
   './media/icons/icon-36x36.png',
   './media/icons/icon-48x48.png',
   './media/icons/icon-72x72.png',
-  './media/icons/icon-96x69.png',
+  './media/icons/icon-96x96.png',
   './media/icons/icon-144x144.png',
   './media/icons/icon-192x192.png'
 ];
