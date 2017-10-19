@@ -50,8 +50,16 @@ var urlsToPrefetch = [
   './Zombie.png',
 
   './Bilresa.mp4',
-  './Bildspel.mp4'
+  './Bildspel.mp4',
 
+  './media/icons/icon-16x16',
+  './media/icons/icon-32x32',
+  './media/icons/icon-36x36',
+  './media/icons/icon-48x48',
+  './media/icons/icon-72x72',
+  './media/icons/icon-96x69',
+  './media/icons/icon-144x144',
+  './media/icons/icon-192x192'
 ];
 
 self.addEventListener('install', function(event) {
