@@ -29,6 +29,9 @@ INCLUDE slut3
 * Kapitel 3 
     -> kapitel3
 
+* Kapitel 7
+    -> kapitel7
+    
 * Kapitel 6 
     -> kapitel6
 

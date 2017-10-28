@@ -31,7 +31,10 @@ if ('serviceWorker' in navigator) {
     .catch(function(error) {
       // Something went wrong during registration. The service-worker.js file
       // might be unavailable or contain a syntax error.
-      document.querySelector('#status').textContent = error;
+      if(document.querySelector('#status') !== null) {
+        document.querySelector('#status').textContent = error;
+      }
+      
     });
 } else {
   // The current browser doesn't support service workers.
@@ -43,7 +46,9 @@ if ('serviceWorker' in navigator) {
   document.querySelector('#status').appendChild(aElement);
 }
 
-document.querySelector('video').onloadedmetadata = function() {
+if(document.querySelector('video') !== null){
+  document.querySelector('video').onloadedmetadata = function() {
   var fileName = this.currentSrc.replace(/^.*[\\\/]/, '');
   document.querySelector('#currentSrc').textContent = 'Video src: ' + fileName;
 };
+}

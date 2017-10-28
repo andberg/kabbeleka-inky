@@ -2,6 +2,16 @@
 
 # save
 # clear
+# backgroundColor: dark
+# img: Bjorn.jpg
+
+* >>
+    -> kapitel8_1
+
+=== kapitel8_1 ===
+
+# clear
+# backgroundColor: light
 
 Tove och pappan för en dialog om arvet, det kan sluta på tre olika vis: 
 
