@@ -24,10 +24,11 @@ INCLUDE slut3
     
 * Fortsätt påbörjat spel
     -> load
+* Vante 
+    -> vante
     
-    
-* Kapitel 3 
-    -> kapitel3
+* Kapitel 4 
+    -> kapitel4
 
 * Kapitel 7
     -> kapitel7

@@ -50,16 +50,19 @@
         }
 
         if (tag.indexOf("backgroundColor:") == 0) {
+            
             color = tag.substr(16);
-            if (color.indexOf("dark") !== -1) {
+
+            if (color.indexOf("light") !== -1) {
                 setTimeout(function () {
-                    document.getElementsByTagName("body")[0].classList.add("dark");
+                    document.getElementsByTagName("body")[0].classList = [];
                 }, delay);
-            } else {
+            } else  {
                 setTimeout(function () {
-                    document.getElementsByTagName("body")[0].classList.remove("dark");
+                    document.getElementsByTagName("body")[0].classList = [];
+                    document.getElementsByTagName("body")[0].classList.add(color);
                 }, delay);
-            }
+            } 
             return 0.0;
         }
 
