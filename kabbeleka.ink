@@ -9,6 +9,8 @@ INCLUDE kapitel8
 INCLUDE slut1
 INCLUDE slut2
 INCLUDE slut3
+INCLUDE kapitel9
+
 
 
 -> kabbeleka
@@ -29,6 +31,9 @@ INCLUDE slut3
     
 * Kapitel 4 
     -> kapitel4
+    
+* Kapitel 8
+    -> kapitel8
 
 * Kapitel 7
     -> kapitel7

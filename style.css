@@ -9,6 +9,7 @@ body.dark {
     color: white;
     transition: background-color 1s ease;
 }
+
 body.dark a {
     color: white;
 }
@@ -17,6 +18,11 @@ body.dark a:hover {
     background-color: #A2B9AD;
 }
 
+body.dark-green {
+    background-color: #526D5F; 
+    color: white;
+    transition: background-color 1s ease;
+}
 
 body.sms p {
     position: relative;

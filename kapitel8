@@ -9,17 +9,92 @@
     -> kapitel8_1
 
 === kapitel8_1 ===
+# clear
+# img: Kabbeleka.png
+
+* >>
+    -> kapitel8_1_2
+    
+    
+=== kapitel8_1_2 ====
 
 # clear
 # backgroundColor:light
 
-Tove och pappan för en dialog om arvet, det kan sluta på tre olika vis: 
+Det är kallt i Jaktstugan. Tove ligger hopkrupen i sin sovsäck.
 
-* Slut 1 - Försoning
-    -> slut1
- 
-* Slut 2 - Tove går sin egen väg
-    -> slut2 
+Hon vill, men kan inte sova.
+
+Hon tänker på det pappa sa om toppen av näringskedjan. Hon längtar efter Nila. Hen kommer att hålla om henne och göra sig tydlig med att förstå. Hen kommer att värdesätta det hon gjort här. Nila kommer att se vad det krävt av henne. 
+
+* >>
+    -> kapitel8_2
+
+=== kapitel8_2 ===
+
+# clear
+
+Tove tänker på det pappa sa om toppen av näringskedjan. Hon tänker på Lailá. Lilla unge som snorar på Toves jacka. Inte längre.
+Lailá vill inte att Tove blir kvar i skogen. För mycket ensamhet. För täta stammar och stora rotvälta. 
+
+* >> 
+    -> kapitel8_2_1
     
-* Slut 3 - Tove kan inte försonas med tanken på arvet, blir vild. 
-    -> slut3
+=== kapitel8_2_1 === 
+
+# clear
+# backgroundColor:dark
+
+* >>
+    -> kapitel8_3
+    
+=== kapitel8_3 === 
+
+# clear
+# backgroundColor:dark-green
+
+Sen, i kylan, i mörkret känner Tove hur kedjad dras åt. Arvet.
+
+Det börjar, elden långt ner i strupen i närheten av magmunnen. Tunna trådar som tidigare höll vävnaderna samman beviljar nu alla önskemål om utlevelse. Huden separeras från köttet och en ny nivå bildas. Andra nyanser i blodet. Fåror, sår, vävnader sprider sig, köttmassor, kroppen förändrades.
+
+Sen, Hettan.
+
+"Jag brinner" tänker Tove och 
+
+* Går ut i kylan. 
+
+    -> kapitel8_4
+    
+    
+=== kapitel8_4 === 
+# clear
+
+Hon stapplar ut genom dörren. Går mot väggen av träd. Tar sig igenom väggen. och känner bara smärta, okontrollerbara smärta. 
+
+Någon har följt efter henne ut. 
+
+* "Pappa, vad händer?"
+
+    ->kapitel8_5
+    
+=== kapitel8_5 === 
+# clear
+
+Ett pulserande i matstrupen, där börjar det. Knivarna som skär i köttet, fördelar om det och drar åt. Benen blir längre och armarna. Händerna deformeras och klor. Sist huden och ansiktet, det nya ansiktet. 
+
+Tove kan inte ta på sig med sina nya händer, jag känner inget längre. Knivarna har arrangerat om och skulpterat. Tid är inte relevant. Bara smärtan, okontrollerbara smärtan. 
+
+* >>
+    -> kapitel8_6
+    
+=== kapitel8_6 === 
+
+Jaktstugan är inte längre kall. Den brinner. 
+
+* >>
+    -> kapitel9 
+    
+    
+    
+    
+    
