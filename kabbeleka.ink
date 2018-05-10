@@ -26,9 +26,7 @@ INCLUDE kapitel9
     
 * Fortsätt påbörjat spel
     -> load
-* Vante 
-    -> vante
-    
+
 * Kapitel 4 
     -> kapitel4
     

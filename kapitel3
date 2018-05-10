@@ -6,27 +6,20 @@
 # img: frilagd-alg.png
 
 
-* >>
-    -> liteSenare
-
-
-=== liteSenare ====
+    * >>
 
 # clear
 # backgroundColor:light
 
-Tove packar upp necessären när hon hör steg utanför ytterdörren. Farfar har gått för att hämta mer ved från garaget. Det är ljud hon känner igen. Trygga ljud.
+- Tove packar upp necessären när hon hör steg utanför ytterdörren. Farfar har gått för att hämta mer ved från garaget. Det är ljud hon känner igen. Trygga ljud.
 
 Hon hör sin farmor som kommer efter.
 
-* >>
--> samtalistovlar
-
-=== samtalistovlar ===
+    * >>
 
 # clear 
 
-"Tror du verkligen att det är säkert för henne att följa med Erland?"
+- "Tror du verkligen att det är säkert för henne att följa med Erland?"
 
 "Hon kommer gå, oavsett vad vi säger."
 
@@ -38,14 +31,11 @@ Hon hör sin farmor som kommer efter.
 
 "Det har du alltid när det kommer till far hennes."
 
-* >> 
--> samtalistovlar2
-
-== samtalistovlar2 === 
+    * >> 
 
 #clear
 
-I garaget hörs deras röster inte lika tydligt. 
+- I garaget hörs deras röster inte lika tydligt. 
 
 "Tror du verkligen att hon kan komma att förändras? Ja, det är hennes först jakt, men det kanske blir hennes enda. Vi vet inte om hon kommer vilja fortsätta traditionen... vi kan bara gissa... Och Kuno är med, han kan berätta och ..."
 
