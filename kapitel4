@@ -11,14 +11,26 @@
 # clear
 # backgroundColor:light
 
-- Träden står i raka rader längs landsvägen. Odlade i sjok, kvadratiska mattor i olika nyanser av grönt. Olika stadier av växt. 
+-> Outside
 
-Vid slutet av landsvägen där kryddas skogen av Fjällbjörk, Daggkåpa, Kabbeleka och vindpinade buskar. Ensligheten ovanför odlingsgränsen, tomma stugor utan el och rinnande vatten.
+=== Outside ===
 
-Utanför huset ligger klyvd ved, såg och yxa. Tomma bensindunkar, gamla skotermattor, renskinn.
+    * [Landsvägen]
+    Träden står i raka rader längs landsvägen. Odlade i sjok, kvadratiska mattor i olika nyanser av grönt. Olika stadier av växt. 
+        -> Outside
+        
+    * [Skogen]
+    Vid slutet av vägen kryddas skogen av Fjällbjörk, Daggkåpa, Kabbeleka och vindpinade buskar. Ensligheten ovanför odlingsgränsen, tomma stugor utan el och rinnande vatten.
+        -> Outside
 
-    * >> 
+    * [Gården]
+    Utanför huset ligger klyvd ved, såg och yxa. Tomma bensindunkar, gamla skotermattor, renskinn.
+        -> Outside
+    
+    * [Huset]
+        -> Inside
 
+=== Inside ===
 # clear
 
 - Inuti huset finns märken ristade på väggarna. Det hänger tavlor på människor som inte längre lever. Trasmattor klär golvet tillsammans med en flaska tändvätska, spisen, brasved och döda insekter.
