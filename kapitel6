@@ -4,60 +4,47 @@
 # backgroundColor:dark
 # img: eld-i-skogen.jpg
 
-* >>
-    -> kunosBerattelse
+-   * >>
 
-=== kunosBerattelse === 
 # save
 # clear
 # backgroundColor:light
 
-Skogen är tyst. Kuno kastar sin tandpetare på glöden och Tove lägger på mer ved. Pappan har lagt sig på liggunderlaget och tittar upp. 
+- Skogen är tyst. Kuno kastar sin tandpetare på glöden och Tove lägger på mer ved. Pappan har lagt sig på liggunderlaget och tittar upp. 
 
 "Jaktstugan brann för 19 år sedan. Minns du det Johan? Jag tro det var året du föddes Tove. Halva stugan fick rivas och byggas om, men jag tror det var lika bra, dom väggarna hade sett för mycket elände."
 
 * >>
-    -> kunoBerattelse2
-
-=== kunoBerattelse2 ===
 
 # clear
 
-"Vi härstammar delvis från en gammal rysk ätt, visste du det Tove? De kom invandrande från Finland under mitten av 1800-talet för att se om det fanns någon jord att bruka och bosatte sig inte långt härifrån. Det är deras nedärvda mark vi sitter på nu. Sen har vi så klart blivit uppblandade med andra folk under åren, nybyggare och samer, men jag fick alltid lära mig att den ryska genen var stark och fick det att växa hår på våra tungor."
+- "Vi härstammar delvis från en gammal rysk ätt, visste du det Tove? De kom invandrande från Finland under mitten av 1800-talet för att se om det fanns någon jord att bruka och bosatte sig inte långt härifrån. Det är deras nedärvda mark vi sitter på nu. Sen har vi så klart blivit uppblandade med andra folk under åren, nybyggare och samer, men jag fick alltid lära mig att den ryska genen var stark och fick det att växa hår på våra tungor."
 
-* >>
-    -> kunoBerattelse3
-    
-=== kunoBerattelse3 ===
+    * >>
 
 # clear
-"Det sägs att den förstfödde i varje familj bär arvet tyngre, men då jag är tredje ungen i räkningen så vet jag inget om det. Det vet ni mer om som båda är förstfödda. 
+
+- "Det sägs att den förstfödde i varje familj bär arvet tyngre, men då jag är tredje ungen i räkningen så vet jag inget om det. Det vet ni mer om som båda är förstfödda. 
 
 Nåja, nog om ungdomen, jag tänkte berätta en sann berättelse om far min, den kallas; 'En sällsam björnjakt'."
 
-* >> 
-    -> kunoBerattelse4
-
-=== kunoBerattelse4 === 
+    * >> 
 
 # clear
 
-"Efter att ha ruskat av sig den sista snön, som låg gnistrande vit över fjällen, ämnade april just gå till vila för året, medan maj gnuggade sömnen ur ögonen med milda fläktar. Blygt rodnande sneglade en ny dag fram under lugg över biktande vidder i nordöst, där Räker reste sin monumentala urtidshjässa och spanade ut över Björkfjällets småknattar i söder."
+- "Efter att ha ruskat av sig den sista snön, som låg gnistrande vit över fjällen, ämnade april just gå till vila för året, medan maj gnuggade sömnen ur ögonen med milda fläktar. Blygt rodnande sneglade en ny dag fram under lugg över biktande vidder i nordöst, där Räker reste sin monumentala urtidshjässa och spanade ut över Björkfjällets småknattar i söder."
 
 ...
 
-* >>
-    -> kunoBerattelse5
+    * >>
     
-=== kunoBerattelse5 === 
-
 # clear 
 
-"Nu blev det liv i björnen; det var som om han stukats till från ändarna av en jättekraft. Han slogs ihop som en märla, sprang högt upp i luften och störtade över på rygg. Men sprang upp igen med ett vrål som rungade hemskt genom dalen, slog ihop ramarna över bröstet som om han ville ta en åkarbrasa, gjorde ytterligare några baklängesvolter och hamnade slutligen i en dunge ungbjörkar där han tumlade omkring och bröt ned allt i sin väg.
+- "Nu blev det liv i björnen; det var som om han stukats till från ändarna av en jättekraft. Han slogs ihop som en märla, sprang högt upp i luften och störtade över på rygg. Men sprang upp igen med ett vrål som rungade hemskt genom dalen, slog ihop ramarna över bröstet som om han ville ta en åkarbrasa, gjorde ytterligare några baklängesvolter och hamnade slutligen i en dunge ungbjörkar där han tumlade omkring och bröt ned allt i sin väg.
 
 Emellertid blev björnen slutligen liggande alldeles still och då rusad ynglingen vild av jaktiver iväg för att ta bytet i närmare skärskådande. Det var en betydande sträcka att tillryggalägga i terrängen, mycket längre än vad han tänkt sig och det tog lång tid att komma fram till målet. Hjärtat dunkade så det hamrade i skallen när han andtruten och med blodsmak i munnen äntligen stod på backen där björnen låg. - Månntro om den var riktigt död?" 
 
 
-* Kapitel 7
+    * Kapitel 7
     -> kapitel7 
 

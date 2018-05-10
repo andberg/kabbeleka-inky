@@ -5,18 +5,12 @@
 # backgroundColor:dark
 # img: Bjorn.jpg
 
-* >>
-    -> kapitel8_1
-
-=== kapitel8_1 ===
+-   * >>
+    
 # clear
 # img: Kabbeleka.png
 
-* >>
-    -> kapitel8_1_2
-    
-    
-=== kapitel8_1_2 ====
+-   * >>
 
 # clear
 # backgroundColor:light
@@ -25,40 +19,26 @@ Det är kallt i Jaktstugan. Tove ligger hopkrupen i sin sovsäck.
 
 Hon vill, men kan inte sova.
 
-* >> 
-    -> kapitel8_3
+-   * >> 
     
-=== kapitel8_3 === 
-
 # clear
 # backgroundColor:dark-green
 
-Elden långt ner i strupen i närheten av magmunnen. Tunna trådar som tidigare höll vävnaderna samman beviljar nu all utlevelse. Huden separeras från köttet och en ny nivå bildas. Andra nyanser i blodet. Fåror, sår, vävnader sprider sig, köttmassor, kroppen förändrades.
+- Elden långt ner i strupen i närheten av magmunnen. Tunna trådar som tidigare höll vävnaderna samman beviljar nu all utlevelse. Huden separeras från köttet och en ny nivå bildas. Andra nyanser i blodet. Fåror, sår, vävnader sprider sig, köttmassor, kroppen förändrades.
 
-* >>
-    -> kapitel8_4
-    
-    
-=== kapitel8_4 === 
+    * >>
+
 # clear
 
-Hon stapplar ut genom dörren. Går mot väggen av träd. Tar sig igenom väggen och känner bara smärta, okontrollerbara smärta. 
+- Hon stapplar ut genom dörren. Går mot väggen av träd. Tar sig igenom väggen och känner bara smärta, okontrollerbara smärta. 
 
 Någon har följt efter henne ut. 
 
-* "Pappa, vad händer?"
+    * "Pappa, vad händer?"
 
-    ->kapitel8_5
-    
-=== kapitel8_5 === 
 # clear
 
-* >>
-    -> kapitel8_6
-    
-=== kapitel8_6 === 
-
-* >>
+-   * Kapitel 9
     -> kapitel9 
     
     

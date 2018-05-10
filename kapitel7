@@ -5,55 +5,35 @@
 # backgroundColor:dark
 # img: aska.jpg
 
-* >> 
-    -> kapitel7_0
-
-=== kapitel7_0 ===
+-   * >> 
 
 # save
 # clear
 # backgroundColor:light
 
-* "Fanns det nån sanning i Kunos berättelse, pappa?"
- -> kapitel7_1
+-    * "Fanns det nån sanning i Kunos berättelse, pappa?"
 
-=== kapitel7_1===
+- "Jag har hört den många gånger nu och det är lite som ändras varje gång. Så sanningen ska vi inte prata mycket om. Däremot tror jag far hans sköt ett vilddjur en gång, men under andra förutsättningar."
 
-"Jag har hört den många gånger nu och det är lite som ändras varje gång. Så sanningen ska vi inte prata mycket om. Däremot tror jag far hans sköt ett vilddjur en gång, men under andra förutsättningar."
+    * "Vad för vilddjur?" 
 
-* "Vad för vilddjur?" 
-    -> kapitel7_2
+- "En varg tror man."
 
-=== kapitel7_2 === 
+    * "Tror?"
 
-"En varg tror man."
+- "Ja, tydligen var rivmärkena efter den större än vad de vargar som finns här uppe hade kunnat göra. Men det var inte en björn i alla fall, den var smidigare än så." 
 
-* "Tror?"
-    -> kapitel7_3
-
-=== kapitel7_3 === 
-
-"Ja, tydligen var rivmärkena efter den större än vad de vargar som finns här uppe hade kunnat göra. Men det var inte en björn i alla fall, den var smidigare än så." 
-
-* "Men vad hände med kroppen, om han nu sköt den?"
-    -> kapitel7_4
+    * "Men vad hände med kroppen, om han nu sköt den?"
     
-=== kapitel7_4 ===
+- "Djuret hann ge sig in i skogen igen och vädret tillät inte Kunos pappa att följa efter, tror det var snöstorm. Dagen därpå gick inte spåren att hitta."
 
-"Djuret hann ge sig in i skogen igen och vädret tillät inte Kunos pappa att följa efter, tror det var snöstorm. Dagen därpå gick inte spåren att hitta."
-
-* "Vad obehgaligt, tänk om vi stöter på något liknande när vi är ute imorgon!"
-    -> kapitel7_5
-
-=== kapitel7_5 ===    
-"Det behöver du inte oroa dig för. Vi är toppen på näringskedjan du och jag. Sov nu så ses vi morgon bitti."
-
-* "Godnatt pappa"
- -> kapitel7_6
+    * "Vad obehgaligt, tänk om vi stöter på något liknande när vi är ute imorgon!"
  
-=== kapitel7_6 === 
-"God natt"
+- "Det behöver du inte oroa dig för. Vi är toppen på näringskedjan du och jag. Sov nu så ses vi morgon bitti."
 
+    * "Godnatt pappa"
 
-* Kapitel 8
-    -> kapitel8
+- "God natt"
+
+    * Kapitel 8
+        -> kapitel8
