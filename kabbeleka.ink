@@ -6,12 +6,10 @@ INCLUDE kapitel5
 INCLUDE kapitel6
 INCLUDE kapitel7
 INCLUDE kapitel8
+INCLUDE kapitel9
 INCLUDE slut1
 INCLUDE slut2
 INCLUDE slut3
-INCLUDE kapitel9
-
-
 
 -> kabbeleka
 
@@ -21,32 +19,39 @@ INCLUDE kapitel9
 # img:Logotyp-kabbeleka.png
 # wait:1500
 
-* Kapitel 1
-    -> kapitel1
+    * Kapitel 1
+        -> kapitel1
     
-* Fortsätt påbörjat spel
-    -> load
-* Vante 
-    -> vante
-    
-* Kapitel 4 
-    -> kapitel4
-    
-* Kapitel 8
-    -> kapitel8
+    * Fortsätt påbörjat spel
+        -> load
 
-* Kapitel 7
-    -> kapitel7
+    * Kapitel 2 
+        -> kapitel2
     
-* Kapitel 6 
-    -> kapitel6
+    * Kapitel 3
+        -> kapitel3
 
-* Kapitel 5
-    -> kapitel5
+    * Kapitel 4
+        -> kapitel4
+
+    * Kapitel 5
+        -> kapitel5
+    
+    * Kapitel 6 
+        -> kapitel6
+
+    * Kapitel 7
+        -> kapitel7
+    
+    * Kapitel 8
+        -> kapitel8
+
+    * Kapitel 9 
+        -> kapitel9
 
 === load ===
 # load
 # clear
 Inget sparat spel hittades.
-*   Kapitel 1
-    -> kapitel1
+    *   Kapitel 1
+        -> kapitel1
