@@ -16,6 +16,7 @@
  
     * "Det var på tiden."
     "Jag hoppas att du har rätt... <>
+    ~ violent++
     
     * "Jag kan knappt tro det själv, men du vet hur han är."
     "Jag vet. Hoppas det är det rätta... <>
@@ -27,7 +28,8 @@
 
     *"Det är väl därför jag får vara med nu[.]<>
     *"Jag hoppas det inte bara är därför jag får vara med[.]<>
-
+    ~ violent++
+    
 - <>, som en extra hjälp eller nått. Även om det är lite oklart ännu vad dom kommer låta mig få göra."
 
 "Har du funderat på om du kommer vilja använda farfars bössa ännu?"
@@ -37,9 +39,14 @@
     
     * "Jag tror det, jag har ju trots allt tagit licensen."
     "Jag tycker du är lite för ung... och tänk om det skulle hända dig något. <>
+    ~ violent++
+    ~ likes_guns++
     
     * "Nej, det vill jag inte."
     "Bra, du är ju så ung ännu... och tänk om det skulle hända dig något. <>
+    ~ violent++
+    ~ likes_guns--
+    
 
 - <>Farfar skulle aldrig förlåta sig själv."
 

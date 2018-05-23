@@ -76,16 +76,25 @@ Tidigt nästa morgon tar sig Tove dit.
 
 - Hur känns det då, har du bestämt dig om du vill börja öva dig att skjuta, eller ska du bara vara med och stycka köttet?
 
-    * Nej, jag tror inte jag vill öva mig att skjuta ännu. Tror inte det är nåt för mig egentligen. Vet inte hur jag ska säga det till pappa dock? :/
-    Jag skulle inte heller vilja skjuta. Så synd om älgen liksom. Men du löser det med pappa, du har alltid kunnat prata med honom. Mycket bättre än mig iaf!
+    * {likes_guns < 0} Nej, absolut inte! Pappa får tycka vad han vill.
+    ~ violent--
+        -> not_shooting
+    
+    * {likes_guns <= 0} Nej, jag tror inte jag vill öva mig att skjuta ännu. Tror inte det är nåt för mig egentligen. Vet inte hur jag ska säga det till pappa dock? :/
+    --(not_shooting) Jag skulle inte heller vilja skjuta. Så synd om älgen liksom. Men du löser det med pappa, du har alltid kunnat prata med honom. Mycket bättre än mig iaf!
     
         ** Ja, jag antar att det löser sig, skulle bara vilja att denna helg är över. Vet inte om jag kommer orka sova ute i jaktstugan en hel helg med två gubbar.
         Vilka blev det nu, du, pappa och Kuno?
         
             *** Ja, precis. Har inte sett Kuno sen farfars 70 års fest. Pratade med Nila om det i veckan, han tyckte Kuno var rätt skojig. Att gubben fortfarande pratar med folk över hela världen via sin långvågsradio. Nila försökte introducera Facebook, men det gick inte så bra :P
-
-    * Det skulle vara roligt att prova älgstudsaren, det är ju typ därför jag kom.
-    Du är knäpp, men pappa blir nog glad. Han längtar efter att nån av oss ska typ följa i hans fotspår.
+                -> nila
+            
+    * {likes_guns >= 0} Det skulle vara roligt att prova älgstudsaren, det är ju typ därför jag kom.
+        -> shooting
+        
+    * {likes_guns > 0} Klart jag vill skjuta, och inte bara som övning!
+    ~ violent++
+    --(shooting) Du är knäpp, men pappa blir nog glad. Han längtar efter att nån av oss ska typ följa i hans fotspår.
         
         ** Jo, jag vet. Vet inte om det är det jag tänker göra, tycker bara det verkar roligt att skjuta.
         Du ska alltid vara så badass.
@@ -99,7 +108,7 @@ Tidigt nästa morgon tar sig Tove dit.
         
             *** Haha, ja, jag kan se det farmför mig, hur du står med kniven i farstun i pappas hus. Skriker here's Lailá! Men jag tror jag skulle klara mig bättre, både jag och Nila har alltid identifierat oss mer med Scatman Crothers karaktär...
 
-- Du umgås mycket med henom nu :)
+- (nila) Du umgås mycket med henom nu :)
 
     * Vet du Laila, nu tror jag att jag hör pappas fyrhjuling. Måste börja göra mig i ordning. Jag hör av mig när vi kommer tillbaks från radioskuggan. Hälsa mamma. Kram
 
