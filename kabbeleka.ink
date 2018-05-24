@@ -12,6 +12,7 @@ INCLUDE slut2
 INCLUDE slut3
 
 VAR violent = 0
+VAR wild = 0
 VAR likes_guns = 0
 
 

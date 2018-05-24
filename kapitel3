@@ -21,7 +21,11 @@ Hon hör sin farmor som kommer efter.
 
 - "Tror du verkligen att det är säkert för henne att följa med Erland?"
 
-"Hon kommer gå, oavsett vad vi säger."
+{wild >= 0:
+    "Hon har alltid velat följa med och tecknen har varit tydliga. Vi kan inte hindra henne nu."
+- else:
+    "Även om det sällan märkts så finns det i henne. Hon kommer att gå, oavsett vad vi säger.
+}
 
 "Men om vi berättar för henne hur det kan bli?"
 
@@ -37,7 +41,7 @@ Hon hör sin farmor som kommer efter.
 
 - I garaget hörs deras röster inte lika tydligt. 
 
-"Tror du verkligen att hon kan komma att förändras? Ja, det är hennes först jakt, men det kanske blir hennes enda. Vi vet inte om hon kommer vilja fortsätta traditionen... vi kan bara gissa... Och Kuno är med, han kan berätta och ..."
+"Tror du verkligen att hon kan komma att förändras? Ja, det är hennes första jakt, men det kanske blir hennes enda. Vi vet inte om hon kommer vilja fortsätta traditionen... vi kan bara gissa... Och Kuno är med, han kan berätta och ..."
 
 "Ja, vi måste in nu, hon undrar säkert vart vi håller hus. Låt mig hjälpa dig med veden."
 

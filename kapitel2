@@ -16,7 +16,7 @@
  
     * "Det var på tiden."
     "Jag hoppas att du har rätt... <>
-    ~ violent++
+    ~ wild++
     
     * "Jag kan knappt tro det själv, men du vet hur han är."
     "Jag vet. Hoppas det är det rätta... <>
@@ -26,14 +26,22 @@
 
 - <>Här, låt mig ta väskan. Och dom kommer att behöva din hjälp i skogen utifall ni fäller en, det är ju ett som är säkert. Jag kommer ihåg för ett par höstar sedan när Kuno sköt tolvtaggaren. Det tog oss två dagar bara att få ner den till garaget för att kunna påbörja slakten."
 
-    *"Det är väl därför jag får vara med nu[.]<>
-    *"Jag hoppas det inte bara är därför jag får vara med[.]<>
+    *"Jag ser inte fram emot att släpa ett dött djur.["] <> 
+    ~ wild--
+    *"Det är väl därför jag får vara med nu[."], som en extra hjälp eller nått. <>
+    ~ wild++
+    *"Jag hoppas det inte bara är därför jag får vara med[."] som en extra hjälp eller nått. <>
     ~ violent++
     
-- <>, som en extra hjälp eller nått. Även om det är lite oklart ännu vad dom kommer låta mig få göra."
+- <>Det är lite oklart ännu vad dom kommer låta mig få göra."
 
 "Har du funderat på om du kommer vilja använda farfars bössa ännu?"
 
+    * "Nej, det vill jag inte."
+    "Bra, du är ju så ung ännu... och tänk om det skulle hända dig något. <>
+    ~ violent--
+    ~ likes_guns--
+    
     * "Jag vet inte ännu."
     "Tänk igenom det noga. Om det skulle hända dig något... <>
     
@@ -41,12 +49,6 @@
     "Jag tycker du är lite för ung... och tänk om det skulle hända dig något. <>
     ~ violent++
     ~ likes_guns++
-    
-    * "Nej, det vill jag inte."
-    "Bra, du är ju så ung ännu... och tänk om det skulle hända dig något. <>
-    ~ violent++
-    ~ likes_guns--
-    
 
 - <>Farfar skulle aldrig förlåta sig själv."
 
