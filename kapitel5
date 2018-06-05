@@ -4,14 +4,67 @@
 # clear
 # backgroundColor:light
 
-- Tove och pappan pratar lite kort innan de går ut på jakt. Syfte att sätta tonen mellan de två. Behöver inte vara så långt. 
+-	"Tove, välkommen till skogen!"
+
+* 	"Tack pappa! Är Kuno kvar på myren?"
+    
+-	"Jo. Men hur är det med dig? Kom, ge mig en kram."
+
+*	…
+
+-	"Gick det bra att köra hit?"
+
+* 	"Jo, det gick bara fint. Laila hälsar till dig förresten, vi SMSade nyss. Har du grattat henne till gymnasiet ännu?"
+
+-	"Nej, vad var det nu igen? Bildlinje?"
+
+*	"Konst och form."
+
+-	"Är det att uppmuntra? Jag fick då aldrig nån uppmuntran för mina kreativare sidor."
+
+*	"Men det är ju hundra år sen! Hon är begåvad och det finns många bra jobb idag för kreatörer. Dessutom är utbildningen högskoleförberedande ifall hon ändrar sig senare…"
+
+-	…
+
+-	"Du måste, skärp dig!"
+
+*	"Jag måste inget. Det kommer inte bli lätt för henne och jag har varit hennes pappa länge nog att veta att hon inte hanterar motgångar särskilt bra."
+    
+    ** "Hon har faktiskt vuxit mycket på sistone."
+    
+    -- "Kan hända, men det finns fortfarande bättre utbildningar för henne. Jag ska ringa henne när vi är tillbaks från jakten och se om jag kan få henne på bättre tankar."
+    
+    ** "Du kommer göra henne ledsen." 
+    
+    -- 	…
+    
+    ** "Du är så jävla envis."
+    
+    -- "Jag vill bara ni barns bästa." 
+    
+	** "Vi är inte barn längre pappa!"
+	
+	*** "Hur är det med Kick nu då?"
+
+*	"Ja, du har rätt. Har hon hittat något hon gillar ska hon ge det en ordentlig chans."
+    
+    ** "Hon har vuxit mycket på sistone."
+
+    --  "Roligt att höra. Hur är det med Kicki då?"
+
+-	"Bra."
+
+-	"Ska vi röra på oss?"
+
+<i>Tove tar på sig ryggsäcken och följer med pappan sin ut.<i/>
+
 
     * >>
 
 # clear
 # backgroundColor:sms
 
-- Hej Nila! Nu har vi kommit tillbaks från första jaktdagen. Ingen sköt något, även om Kuno sa att han såg en tiotaggare på myren här nedanför från dasset i morse. Det har varit spännande att få vara med. Ännu går jag bara bredvid pappa och han har visat mig hur jag ska spåra. Nu gör gubbarna upp eld där ute och vi ska laga mat (hälla vatten på snabbnudlarna och skära det torkade renköttet). Jag tror Kuno har förberett en historia. Det är tyligen tradition vid jakten.  Visst berättade jag det för dig hur han brukade sälja häften med sina berättelser utanför Ica innan jularna för att få ihop pengar till julmaten? Imorgon kommer jag bära bössan. Jag hör av mig igen imorgon kväll, Tove
+- Hej Nila! Nu har vi kommit tillbaks från första jaktdagen. Ingen sköt något, även om Kuno sa att han såg en tiotaggare på myren här nedanför från dasset i morse. Det har varit spännande att få vara med. Ännu går jag bara bredvid pappa och han har visat mig hur jag ska spåra. Nu gör gubbarna upp eld där ute och vi ska laga mat (hälla vatten på snabbnudlarna och skära det torkade renköttet). Jag tror Kuno har förberett en historia. Det är tydligen tradition vid jakten.  Visst berättade jag det för dig hur han brukade sälja häften med sina berättelser utanför Ica innan jularna för att få ihop pengar till julmaten? Imorgon kommer jag bära bössan. Jag hör av mig igen imorgon kväll, Tove
 
     * Kapitel 6
         -> kapitel6
