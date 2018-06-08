@@ -6,17 +6,28 @@
 
 -	"Tove, välkommen till skogen!"
 
-* 	"Tack pappa! Är Kuno kvar på myren?"
+    * "Tack pappa! Härligt att vara här.["] <>
+     ~ wild++
+     
+    * "Tack, men jag vet inte om skogen är så glad att se mig.["] <>
+     ~ wild--
     
--	"Jo. Men hur är det med dig? Kom, ge mig en kram."
+-	Är Kuno kvar på myren?"
+    "Jo. Men hur är det med dig? Kom, ge mig en kram."
 
 *	…
 
 -	"Gick det bra att köra hit?"
 
-* 	"Jo, det gick bara fint. Laila hälsar till dig förresten, vi SMSade nyss. Har du grattat henne till gymnasiet ännu?"
-
--	"Nej, vad var det nu igen? Bildlinje?"
+    * "Jo, det gick bara fint.["] <>
+    
+    * {missed_reindeer} "Höll på att köra på en ren, men det gick bra.["] <>
+    
+    * "Det tar så låång tid bara.["] <>
+    
+-   Laila hälsar till dig förresten, vi SMSade nyss. Har du grattat henne till gymnasiet ännu?"
+    
+    "Nej, vad var det nu igen? Bildlinje?"
 
 *	"Konst och form."
 

@@ -59,18 +59,23 @@ Tidigt nästa morgon tar sig Tove dit.
 - Tog du min vante?
 
     * Ja
-    Men åh, jag skulle ju ha dem i helgen, nu kommer jag frysa händerna av mig. Jaja, Gick det bra att köra upp?
+    Men åh, jag skulle ju ha dem i helgen, nu kommer jag frysa händerna av mig. Jaja... <>
         
     * Nej
-    Då måste mamma tagit den, så typiskt henne. Gick det bra att köra upp?
+    Då måste mamma tagit den, så typiskt henne. <>
+    
+- Gick det bra att köra upp?
 
--   * Ja, det gick bra Laila. Hade inte hunnit bli så halt ännu.
-    Skönt. Mamma hälsade förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten.
+    * Ja, det gick bra Laila. Hade inte hunnit bli så halt ännu.
+    Skönt. <>
     
     * Höll nästan på att köra på en ren en mil från Lycksele, men hann precis stanna.
-    Men usch :O, skönt att det gick bra. Mamma hälsade förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten.
+    ~ missed_reindeer = true
+    Men usch :O, skönt att det gick bra. <>
 
-* Hon överreagerar jämt. Pappa har bett mig hjälpa till med jakten i två år nu, men jag har inte kunnat förrän nu. Det betyder mycket för honom nu när farfar inte orkar längre. Som om det är en viktig familjeritual eller nått. :/
+- Mamma hälsade förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten.
+
+    * Hon överreagerar jämt. Pappa har bett mig hjälpa till med jakten i två år nu, men jag har inte kunnat förrän nu. Det betyder mycket för honom nu när farfar inte orkar längre. Som om det är en viktig familjeritual eller nått. :/
 
 - Hur känns det då, har du bestämt dig om du vill börja öva dig att skjuta, eller ska du bara vara med och stycka köttet?
 
