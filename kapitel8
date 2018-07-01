@@ -78,23 +78,38 @@
     
 === AfterAwakening ===
 
-*  "Men …"
+    * {wild <= 0} "Men …"
+    
+    * "Kommer det alltid vara så här jobbigt?"
 
--	"Det är tufft. De första gångerna är det tufft, men det blir enklare med tiden. Tills det blir svårare igen… i slutet. Du kommer få skjuta mig när den tiden kommer."
+    * {wild > 0} "Wow!["] Jag visste att något var annorlunda med mig, men det här..."
+    ~ wild++
 
-*	"Men …"
+- "Det är tufft. De första gångerna är det tufft, men det blir enklare med tiden. Tills det blir svårare igen… i slutet. Du kommer få skjuta mig när den tiden kommer."
 
--	"Vi kommer att klara oss bra tillsammans, så länge vi håller ihop och tar hand om varandra."
+    * "Men …"
 
-* "Men, jag vill inte!"
+- "Vi kommer att klara oss bra tillsammans, så länge vi håller ihop och tar hand om varandra."
 
--	"Vad vill du inte?"
+    * "Men, jag vill inte!"
 
-* "Detta!"
+- "Vad vill du inte?"
 
-* "..."
+    * {wild <= 0} "Jag kan inte bo här i skogen..."
+    ~ wild--
+    "Det är enda sättet 
 
--	"Vem vill det? Våldet har vi fötts med. Det går inte att undvika eller bota sig från. Du lär dig leva med våldet. Det kommer att stanna med dig Tove. Det kommer att vara svårt, men jag finns här, skogen och vidderna finns här för dig och dina byten.
+    * {wild > 0} "Jag kan inte leva så här!"
+    "Det är inget vi valt. <>
+
+    * {violent < 2} "Jag kan inte döda dig!"
+    ~ violent--
+    "När tiden kommer så måste du. <>
+
+    * "Inget av det här!"
+    "Vem vill det? <>
+
+- <>Våldet har vi fötts med. Det går inte att undvika eller bota sig från. Du lär dig leva med våldet. Det kommer att stanna med dig Tove. Det kommer att vara svårt, men jag finns här, skogen och vidderna finns här för dig och dina byten.
 
 Och du kommer alltid ha djuret, lita till djuret Tove, det är din starkaste röst."
 
