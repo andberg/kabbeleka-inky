@@ -11,25 +11,49 @@
 # clear
 # backgroundColor:light
 
--    * "Fanns det nån sanning i Kunos berättelse, pappa?"
+-   * "Han är bra på att berätta sagor, Kuno."
 
-- "Jag har hört den många gånger nu och det är lite som ändras varje gång. Så sanningen ska vi inte prata mycket om. Däremot tror jag far hans sköt ett vilddjur en gång, men under andra förutsättningar."
+    "Ja, han vet hur man håller lyssnarna intresserade. Men det är inte bara en saga. Far hans sköt ett vilddjur en gång, men under andra förutsättningar."
+    
+    * "Fanns det nån sanning i Kunos berättelse, pappa?"
 
-    * "Vad för vilddjur?" 
+    "Jag har hört den många gånger nu och det är lite som ändras varje gång. Så sanningen ska vi inte prata mycket om. Däremot tror jag far hans sköt ett vilddjur en gång, men under andra förutsättningar."
+
+
+-   * "Vad för vilddjur?"
+
+    * "En varg? Eller en björn?"
 
 - "En varg tror man."
 
     * "Tror?"
+    
+    "Ja, tydligen var rivmärkena efter den större än vad de vargar som finns här uppe hade kunnat göra. <>
+    
+    * "Finns det ens några vargar här uppe?"
+    
+    "Ja, de är inte vanliga men de finnns. Rivmärkena efter den här var större än vad en varg hade kunnat göra. <>
+    
+    * "Kan det varit en järv?"
+    ~ wild++
+    
+    "Nej, det var ett stort djur. Egentligen större än en varg. <>
 
-- "Ja, tydligen var rivmärkena efter den större än vad de vargar som finns här uppe hade kunnat göra. Men det var inte en björn i alla fall, den var smidigare än så." 
+-  <>Men det var inte en björn i alla fall, den var smidigare än så." 
 
     * "Men vad hände med kroppen, om han nu sköt den?"
     
 - "Djuret hann ge sig in i skogen igen och vädret tillät inte Kunos pappa att följa efter, tror det var snöstorm. Dagen därpå gick inte spåren att hitta."
 
     * "Vad obehgaligt, tänk om vi stöter på något liknande när vi är ute imorgon!"
+    
+    "Det behöver du inte oroa dig för. Vi är toppen på näringskedjan du och jag. <>
+    
+    * "Spännande! Tänk om vi får syn på något liknande när vi är ute imorgon!"
+    
+    "Knappast. De enda monstren här i skogen är du och jag. Vi har gevären. <>
  
-- "Det behöver du inte oroa dig för. Vi är toppen på näringskedjan du och jag. Sov nu så ses vi morgon bitti."
+- <>Sov nu så ses vi morgon bitti."
 
     * "Godnatt pappa"
 
