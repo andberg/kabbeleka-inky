@@ -15,6 +15,10 @@ body.dark a {
     color: white;
 }
 
+body.dark p {
+    color: white;
+}
+
 body.dark a:hover {
     background-color: #A2B9AD;
 }
@@ -31,7 +35,7 @@ body.imageForest {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  transition: opacity 0.9s;
+    transition: opacity 0.9s;
     transition: background 1s ease;
 }
 
@@ -51,6 +55,36 @@ body.imageFloor p {
 
 body.imageFloor a {
     color: red;
+}
+
+body.imageFireBlood {
+    background: url(./Eld-och-Blod.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.imageFireBlood-fire {
+    background: url(./Eld-och-Blod-2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.imageFireBlood-blood {
+    background: url(./Eld-och-Blod-3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
 }
 
 body.sms p {

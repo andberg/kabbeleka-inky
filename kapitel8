@@ -13,14 +13,14 @@
 -   * >>
 
 # clear
-# backgroundColor:light
+# backgroundColor:dark-green
 
 <i>Det är kallt i Jaktstugan. Tove ligger hopkrupen i sin sovsäck.</i>
 
 -   * >> 
     
 # clear
-# backgroundColor:dark-green
+# backgroundColor:imageFireBlood-fire
 
 - <i>Repetativt. Drömmen upprepar sig, itensifieras. Överallt åtstramning, muskler som krampar.</i>
 
@@ -29,6 +29,8 @@
 <i>Det flimmrar framför hennes ögon, som om något rör sig framför henne som hon inte riktigt kan se. Lågor. Som lågor.</i> 
 
 * "Är elden fortfarande tänd utanför?" 
+
+# backgroundColor:imageFireBlood
 
 - <i>Tankarna rör sig snabbt och långsamt på samma gång. Många känns överflödiga, som om dom inte är relevanta längre. Men elden känns relevant. Dess närvaro är både en trygghet och ett hot.</i> 
 
@@ -40,12 +42,18 @@
 
 *  ...
 
+# clear
+# backgroundColor:imageFireBlood-blood
+
 - <i> Tove tvingar upp ögonen, hon rör sig genom skogen. Det är inte eld hon sett, det är fullmånen som kommit fram mellan träden. En tanke om plats infinner sig, men den är snäv, otydlig. Hela hennes uttryck är ohörbar och går inte att verbalisera. Hon tänker, men tankarna rör sig inte längre med ord, utan med känslor. </i>
 <i> Rörelsen i lemmarna tar udden av smärtan. Så länge hon rör sig går den att uthärda. Dofterna mer påtagliga, hon öppnar munnen för att uppfatta mer.</i>
 
 <i>Förtsatt rörelse. En ny kropp närmar sig, hon känner den! Den gör henne inte rädd. Doften känns igen. När den dyker upp i synfältet vaknar kort en del av hjärnan som stängts av. En tanke fyller Tove:</i> 
 
-"Kroppen tillhör en ulv!"
+* "Kroppen tillhör en ulv!"
+
+# clear
+# backgroundColor:dark
 
 <i>Sedan inga mera ord, knappa känslor, kvar är instinkt och mörker.</i>
 
@@ -77,6 +85,8 @@
 *   -> AfterAwakening
     
 === AfterAwakening ===
+#clear 
+# backgroundColor:dark-green
 
     * {wild <= 0} "Men …"
     
@@ -97,14 +107,14 @@
 
     * {wild <= 0} "Jag kan inte bo här i skogen..."
     ~ wild--
-    "Det är enda sättet 
+    "Det är enda sättet.   
 
     * {wild > 0} "Jag kan inte leva så här!"
-    "Det är inget vi valt. <>
+    "Det är inget vi valt.  <>
 
     * {violent < 2} "Jag kan inte döda dig!"
     ~ violent--
-    "När tiden kommer så måste du. <>
+    "När tiden kommer så måste du.  <>
 
     * "Inget av det här!"
     "Vem vill det? <>
@@ -113,14 +123,22 @@
 
 Och du kommer alltid ha djuret, lita till djuret Tove, det är din starkaste röst."
 
-* >>
+* >> ->ToveWontHuntToday
+
+=== ToveWontHuntToday ===
+
+# save
+# clear
+# backgroundColor:dark
+# img: Spokbjorn.jpg
+
+* >> 
+
 
 # clear
+# backgroundColor:dark-green
+
 -	"Tove följer inte med på jakten idag, säger pappa till Kuno. Hon har inte sovit."
-
-    * >>
-
-# clear
 
 -   * Kapitel 9
     -> kapitel9 
