@@ -53,16 +53,11 @@
             
             color = tag.substr(16);
 
-            if (color.indexOf("light") !== -1) {
-                setTimeout(function () {
-                    document.getElementsByTagName("body")[0].classList = [];
-                }, delay);
-            } else  {
-                setTimeout(function () {
-                    document.getElementsByTagName("body")[0].classList = [];
-                    document.getElementsByTagName("body")[0].classList.add(color);
-                }, delay);
-            } 
+            setTimeout(function () {
+                document.getElementsByTagName("body")[0].classList = [];
+                document.getElementsByTagName("body")[0].classList.add(color);
+            }, delay);
+            
             return 0.0;
         }
 

@@ -1,11 +1,12 @@
 body {
     font-family: 'Arbutus Slab', serif;
-    background-color: #A2B9AD; 
+    background-color: #A2B9AD;
     color: black;
     transition: background-color 1s ease;
 }
+
 body.dark {
-    background-color: black; 
+    background-color: black;
     color: white;
     transition: background-color 1s ease;
 }
@@ -19,9 +20,37 @@ body.dark a:hover {
 }
 
 body.dark-green {
-    background-color: #526D5F; 
+    background-color: #526D5F;
     color: white;
     transition: background-color 1s ease;
+}
+
+body.imageForest {
+    background: url(./skog-i-rader.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.imageFloor {
+    background: url(./Rispor-i-golvet.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.imageFloor p {
+    color: red;
+}
+
+body.imageFloor a {
+    color: red;
 }
 
 body.sms p {
@@ -31,9 +60,9 @@ body.sms p {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    -webkit-box-shadow: -1px 0px 8px 1px rgba(0,0,0,0.57); 
-    -moz-box-shadow: -1px 0px 8px 1px rgba(0,0,0,0.57); 
-    box-shadow: -1px 0px 8px 1px rgba(0,0,0,0.57); 
+    -webkit-box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
+    box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
 }
 
 /*body.sms p:before {
@@ -47,22 +76,23 @@ body.sms p {
     display: block;
     width: 0;
 }*/
-
-
 h1 {
     text-indent: 50px;
     font-weight: lighter;
 }
+
 video {
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1200px;
 }
+
 img {
     width: auto;
     display: block;
     margin: 0 auto;
     max-width: 100%;
 }
+
 .container {
     display: block;
     max-width: 1200px;
@@ -78,18 +108,21 @@ p, a {
     margin-top: 2rem;
     color: black;
 }
-@media (min-width: 864px){
+
+@media (min-width:864px) {
     p, a {
         font-size: 1.3rem;
     }
+
 }
 
 p, img, video {
     opacity: 0.0;
     transition: opacity 1.0s;
 }
+
 video {
-    margin-top: 2rem; 
+    margin-top: 2rem;
 }
 
 p.show, img.show, video.show {
@@ -101,9 +134,9 @@ p.choice {
 }
 
 a:hover {
-    background-color: white; 
+    background-color: white;
 }
 
 .hidden {
-    display: none; 
+    display: none;
 }

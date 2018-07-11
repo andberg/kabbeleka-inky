@@ -9,7 +9,7 @@
 -    * >>
     
 # clear
-# backgroundColor:light
+# backgroundColor:imageForest
 
 -> Outside
 
@@ -32,6 +32,7 @@
 
 === Inside ===
 # clear
+# backgroundColor:imageFloor
 
 - Inuti huset finns märken ristade på väggarna. Det hänger tavlor på människor som inte längre lever. Trasmattor klär golvet tillsammans med en flaska tändvätska, spisen, brasved och döda insekter.
 
