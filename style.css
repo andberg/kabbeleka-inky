@@ -87,6 +87,36 @@ body.imageFireBlood-blood {
     transition: background 1s ease;
 }
 
+body.ending-3 {
+    background: url(./Slut3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.ending-2 {
+    background: url(./Slut1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.ending-1 {
+    background: url(./Slut2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
 body.sms p {
     position: relative;
     padding: 15px;

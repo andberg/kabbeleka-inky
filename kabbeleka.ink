@@ -26,6 +26,9 @@ VAR missed_reindeer = false
 
     * Kapitel 1
         -> kapitel1
+        
+     * Sluten
+        -> endChoices
     
     * Fortsätt påbörjat spel
         -> load
