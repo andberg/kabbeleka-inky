@@ -10,6 +10,8 @@ INCLUDE kapitel9
 INCLUDE slut1
 INCLUDE slut2
 INCLUDE slut3
+INCLUDE epilog
+
 
 VAR violent = 0
 VAR wild = 0

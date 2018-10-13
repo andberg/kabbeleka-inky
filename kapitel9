@@ -15,7 +15,11 @@
 - ”En gång. Ljusa unga armar i min mun. Jag tog sönder ett ben i taget och ersätta dem med rester. Hon visade skräck, vanvett och rädslan. Jag såg min bild i hennes öga och så kyla. Och sedan blod. Hennes blod i min mun, mina armar om hennes kött. 
 Jag stannade med henne i dagar, var kvar i hennes öga. Hon var min då."
 
-* TOVES ANDRA KVÄLL
+* >>
+
+# clear
+
+TOVES ANDRA KVÄLL
 
 - Bergsvägg, täckt av lavar. Stam och koda. Sänker huvudet ner, mot mossa, jord, fjällbjörk och enbuskar. Pölar. Det regnar. Kabbeleka, kabbeleka och sedan forsen. Varv åker vattnet. I virveln. Skulle jag känna kylan nu? Kliver ner i den strida strömmen, men står ännu vid stranden. Inte tillräckligt djupt ännu. Skum och vattnets styrka, det vill mig i alla fall något, det sträcker sig mot mig och vill mig ner. Gömma mig i sig och möta mitt våld med sina klippor. Begrava min vårdslöshet. 
 
@@ -23,23 +27,32 @@ Men jag tar bara. Tvättar mig om munnen, händerna. Rött.
 
 * ”Du får mig inte nu”, tänker jag.  
 
+# clear
+# backgroundColor:fur
+
 - Jag sätter mig vid resterna en stund och väntar. Inget händer. Jag lämnar ett avtryck i jorden där jag sitter. Hårda knän nedtryckta i leran. För långa ben för att vara en människas, men vad skulle de annars tillhöra? Pälsbeklädd, någon slags vilde? 
 
 * PAPPA BERÄTTAR
 
-- "Min farfar sa att det växte hår på våra tungor. Vi fick leva med det. Inte alltid, men tillräckligt mycket för att göra livet jävligt för oss. Och hittade vi kärleken förde vi arvet vidare. 
+- "Min farfar sa att det växte hår på våra tungor. Vi fick leva med det. Inte alltid, men tillräckligt ofta för att göra livet jävligt för oss. Och hittade vi kärleken förde vi arvet vidare. 
 Inte alltid, ibland hoppade det över generationer, som med min farfar. Men oftast, i din ålder. Feber och knivarna.”
 
 * TOVE
+
+# clear
+# backgroundColor:imageFireBlood
 
 - Ett pulserande i matstrupen, där börjar det. Jag känner knivarna i mig, skär upp köttet, fördelar om det och drar åt. Sedan benen ska växa, jag ska bli större. Benen blir längre och armarna. Händerna deformeras och klor. Sist huden och ansiktet, det nya ansiktet. Jag kan inte känna på mig med mina nya händer, jag känner inget längre. Knivarna har arrangerat om och skulpterat. 
 
 * ”Du kan inte göra annat än att genomlida. Jag vakar över dig, det är alltid värst de första gångerna. Du kommer vänja dig.”
 
-- Tove ser färger, nyanser jag inte kunnat skönja tidigare. Bakom träden, ett fjäll. 
+- Tove ser färger, nyanser hon inte kunnat skönja tidigare. Bakom träden, ett fjäll. 
 
 
 * PAPPAN BERÄTTAR:
+
+# clear
+# backgroundColor:dark-green
 
 - "Jag känner mig inte tillräcklig längre. Som människa är jag halv. Har provat många sätt att försöka ha kontakt med människorna i byn, men det vill sig inte riktigt. Jag deltar på jakten, i byalagets fiskeförening. Ibland tar jag en öl på pizzerian, men oftast är jag ensam. 
 Det är så svårt att prata om det. Det finns inget jag kan säga om det jag är. Det har inte funnits någon att dela detta med förrän nu, förrän med dig."
@@ -56,7 +69,7 @@ Det är så svårt att prata om det. Det finns inget jag kan säga om det jag ä
 
 * "Men, vi måste försöka få hjälp av någon! Vi kan inte fortsätta... jag kommer bli galen!"  -> slut3
 
-* "Jag förstår, men jag kan inte leva här hela livet! Laila och Nila... "  -> slut2 
+* "Jag förstår, men jag kan inte leva så här hela livet! Laila och Nila... "  -> slut2 
 
 * "Jag vet inte pappa. Men kommer behöva dig nu." -> slut1
 

@@ -29,6 +29,24 @@ body.dark-green {
     transition: background-color 1s ease;
 }
 
+body.purple {
+    background-color: #1c1b21;
+    color: white;
+    transition: background-color 1s ease;
+}
+
+body.purple-lighter {
+    background-color: #49484f;
+    color: white;
+    transition: background-color 1s ease;
+}
+
+body.purple-lighter-2 {
+    background-color: #5d5b64;
+    color: white;
+    transition: background-color 1s ease;
+}
+
 body.imageForest {
     background: url(./skog-i-rader.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -39,8 +57,48 @@ body.imageForest {
     transition: background 1s ease;
 }
 
+body.imageWood {
+    background: url(./Staplad-ved.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.imageLoneTree {
+    background: url(./ensligt-trad.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.imageSnow {
+    background: url(./vit-sno.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
 body.imageFloor {
     background: url(./Rispor-i-golvet.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
+body.fur {
+    background: url(./fur.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

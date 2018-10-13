@@ -9,21 +9,23 @@
 -    * >>
     
 # clear
-# backgroundColor:imageForest
 
 -> Outside
 
 === Outside ===
 
     * [Landsvägen]
+    # backgroundColor:imageForest
     Träden står i raka rader längs landsvägen. Odlade i sjok, kvadratiska mattor i olika nyanser av grönt. Olika stadier av växt. 
         -> Outside
         
     * [Skogen]
+       # backgroundColor:imageLoneTree
     Vid slutet av vägen kryddas skogen av Fjällbjörk, Daggkåpa, Kabbeleka och vindpinade buskar. Ensligheten ovanför odlingsgränsen, tomma stugor utan el och rinnande vatten.
         -> Outside
 
     * [Gården]
+    # backgroundColor:imageWood
     Utanför huset ligger klyvd ved, såg och yxa. Tomma bensindunkar, gamla skotermattor, renskinn.
         -> Outside
     
@@ -44,7 +46,18 @@ Folk har levt där inne. Nu är det endast ett hem för minnen av våld och dem 
 
 Tidigt nästa morgon tar sig Tove dit.
 
-    * Till jaktstugan
+    * Till jaktstugan -> jaktstugan
+    
+=== jaktstugan ===
+
+# clear
+# save
+# backgroundColor:dark
+# wait 2000
+# img: Till-jaktstugan-vag.jpg
+
+* >>
+
 
 # clear
 # save

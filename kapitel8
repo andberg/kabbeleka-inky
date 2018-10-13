@@ -57,6 +57,10 @@
 
 <i>Sedan inga mera ord, knappa känslor, kvar är instinkt och mörker.</i>
 
+** >>
+
+# clear
+# backgroundColor:purple
 "Tove, vakna, vi måste ta oss tillbaka."
 
 <i>Det är tidig morgon, skogen är fortfarande mörkt. Det är kallt ute. Kroppen ömmar, munnen är torr.</i>
@@ -67,26 +71,26 @@
 
 === Awakening ===
 
-    * "Var är vi?
-
+    * "Var är vi?"
+    # backgroundColor:purple-lighter
     "Jag tror vi är halvmilen från jaktstugan, så vi har en bra bit kvar. Om vi springer så hinner vi nog fram innan Kuno vaknar. Tack och lov drack han nubbar innan han gick och la sig, då brukar han sova länge."
     -> Awakening
 
     * "Var är våra kläder?"
-
+    # backgroundColor:purple-lighter
 	"Oroa dig inte för kläderna, ingen kommer att se oss här ute. Det är av vikt att ingen ser oss så här. Som det vi ibland är. Två nätter varje månad... En gång blev det tre, månen efter att ni försvann till stan. Men ingen kommer att se..."
     -> Awakening
 
     * "Vad hände?"
-
+    # backgroundColor:purple-lighter
 	"Vad som alltid händer den förstfödde i vår släkt. När vi blir runt 20 så förvandlas vi. Jag fick höra att det var en förbannelse som lades på vår släkt, men jag tror det är generna."
     -> Awakening
 
-*   -> AfterAwakening
+*  >>  -> AfterAwakening
     
 === AfterAwakening ===
 #clear 
-# backgroundColor:dark-green
+# backgroundColor:purple-lighter-2
 
     * {wild <= 0} "Men …"
     

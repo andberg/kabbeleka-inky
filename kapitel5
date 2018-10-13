@@ -55,7 +55,7 @@
     
 	** "Vi är inte barn längre pappa!"
 	
-	*** "Hur är det med Kick nu då?"
+	*** "Hur är det med Kicki nu då?"
 
 *	"Ja, du har rätt. Har hon hittat något hon gillar ska hon ge det en ordentlig chans."
     
@@ -69,8 +69,13 @@
 
 <i>Tove tar på sig ryggsäcken och följer med pappan sin ut.<i/>
 
+* >>
+    
+# clear
+# backgroundColor:dark
+# img: skog-1.jpg
 
-    * >>
+    ** >>
 
 # clear
 # backgroundColor:sms
