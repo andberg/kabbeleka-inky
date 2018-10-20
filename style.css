@@ -145,6 +145,16 @@ body.imageFireBlood-blood {
     transition: background 1s ease;
 }
 
+body.blue-blood {
+    background: url(./Eld-och-Blod-bla.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: opacity 0.9s;
+    transition: background 1s ease;
+}
+
 body.ending-3 {
     background: url(./Slut3.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;

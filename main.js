@@ -1,10 +1,10 @@
-(function (storyContent) {
+(function(storyContent) {
 
     var story = new inkjs.Story(storyContent);
     var storyContainer = document.querySelectorAll("#story")[0];
 
     function showAfter(delay, el) {
-        setTimeout(function () {
+        setTimeout(function() {
             el.classList.add("show")
         }, delay);
     }
@@ -49,22 +49,46 @@
             return 200.0;
         }
 
+        if (tag.indexOf("sound:") == 0) {
+            fileName = tag.substr(6);
+            var element = document.createElement("audio");
+            element.controls = false;
+            element.autoplay = true;
+            element.src = fileName;
+            storyContainer.appendChild(element);
+            showAfter(delay, element);
+            return 200.0;
+        }
+
+        if (tag.indexOf("music:") == 0) {
+            fileName = tag.substr(6);
+            var element = document.createElement("audio");
+            element.controls = false;
+            element.autoplay = true;
+            element.loop = true;
+            element.id = 'loopMusic';
+            element.src = fileName;
+            storyContainer.appendChild(element);
+            showAfter(delay, element);
+            return 200.0;
+        }
+
         if (tag.indexOf("backgroundColor:") == 0) {
-            
+
             color = tag.substr(16);
 
-            setTimeout(function () {
+            setTimeout(function() {
                 document.getElementsByTagName("body")[0].classList = [];
                 document.getElementsByTagName("body")[0].classList.add(color);
             }, delay);
-            
+
             return 0.0;
         }
 
         if (tag.indexOf("fontColor:") == 0) {
             color = tag.substr(16);
             console.log(color);
-            setTimeout(function () {
+            setTimeout(function() {
                 document.getElementsByTagName("body")[0].style.color = color;
             }, delay);
             return 0.0;
@@ -77,23 +101,31 @@
 
         if (tag.indexOf("url:") == 0) {
             url = tag.substr(4);
-            setTimeout(function () {
+            setTimeout(function() {
                 window.open(url);
             }, delay);
         }
 
         if (tag.indexOf("clear") == 0) {
-            var existingContent = storyContainer.querySelectorAll("p, a, img, video");
+            var existingContent = storyContainer.querySelectorAll("p, a, img, video, audio");
             if (delay <= 200.0) {
                 for (var i = 0; i < existingContent.length; i++) {
+
                     var c = existingContent[i];
-                    c.parentNode.removeChild(c);
+
+                    if (c.id != 'loopMusic') {
+                       c.parentNode.removeChild(c);
+                    }
+                   
                 }
             } else {
-                setTimeout(function () {
+                setTimeout(function() {
                     for (var i = 0; i < existingContent.length; i++) {
                         var c = existingContent[i];
-                        c.parentNode.removeChild(c);
+
+                        if (c.id != 'loopMusic') {
+                           c.parentNode.removeChild(c);
+                        }
                     }
                 }, delay);
             }
@@ -127,7 +159,7 @@
             }
 
             // Process Tags
-            currentTags.forEach(function (tag) {
+            currentTags.forEach(function(tag) {
                 extraDelay = ProcessTag(tag, delay);
                 delay += extraDelay;
             });
@@ -144,7 +176,7 @@
         }
 
         // Create HTML choices from ink choices
-        story.currentChoices.forEach(function (choice) {
+        story.currentChoices.forEach(function(choice) {
 
             // Create paragraph with anchor element
             var choiceParagraphElement = document.createElement("p");
@@ -158,7 +190,7 @@
 
             // Click on choice
             var choiceAnchorEl = choiceParagraphElement.querySelectorAll("a")[0];
-            choiceAnchorEl.addEventListener("click", function (event) {
+            choiceAnchorEl.addEventListener("click", function(event) {
 
                 // Don't follow <a> link
                 event.preventDefault();

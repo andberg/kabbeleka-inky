@@ -64,7 +64,7 @@ Tidigt nästa morgon tar sig Tove dit.
 # backgroundColor:dark
 # wait 2000
 # img: Till-jaktstugan.jpg
-
+# sound:message.mp3
 -    * SMS 
    
 # clear
