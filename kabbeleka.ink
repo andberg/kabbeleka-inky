@@ -59,6 +59,9 @@ VAR missed_reindeer = false
     * Kapitel 9 
         -> kapitel9
 
+    * slut3
+        -> slut3
+    
 === load ===
 # load
 # clear
