@@ -27,38 +27,12 @@ VAR missed_reindeer = false
 # img:Logotyp-kabbeleka.png
 # wait:1500
 
-    * Kapitel 1
+    * Start - Kapitel 1
         -> kapitel1
-        
-     * Sluten
-        -> endChoices
+
     
     * Fortsätt påbörjat spel
         -> load
-
-    * Kapitel 2 
-        -> kapitel2
-    
-    * Kapitel 3
-        -> kapitel3
-
-    * Kapitel 4
-        -> kapitel4
-
-    * Kapitel 5
-        -> kapitel5
-    
-    * Kapitel 6 
-        -> kapitel6
-
-    * Kapitel 7
-        -> kapitel7
-    
-    * Kapitel 8
-        -> kapitel8
-
-    * Kapitel 9 
-        -> kapitel9
 
 === load ===
 # load
