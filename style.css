@@ -47,6 +47,12 @@ body.purple-lighter-2 {
     transition: background-color 1s ease;
 }
 
+body.grey {
+    background-color: #8C807D;
+    color: black;
+    transition: background-color 1s ease;
+}
+
 body.imageForest {
     background: url(./skog-i-rader.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;

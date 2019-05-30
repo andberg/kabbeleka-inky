@@ -10,7 +10,8 @@ INCLUDE kapitel9
 INCLUDE slut1
 INCLUDE slut2
 INCLUDE slut3
-INCLUDE epilog
+INCLUDE epilog2
+INCLUDE credits
 
 
 VAR violent = 0
@@ -21,7 +22,7 @@ VAR missed_reindeer = false
 -> kabbeleka
 
 === kabbeleka ===
-
+# clear
 # wait:1500
 # img:Logotyp-kabbeleka.png
 # wait:1500

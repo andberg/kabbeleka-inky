@@ -16,17 +16,17 @@
 
     * [Landsvägen]
     # backgroundColor:imageForest
-    Träden står i raka rader längs landsvägen. Odlade i sjok, kvadratiska mattor i olika nyanser av grönt. Olika stadier av växt. 
+    <i>Träden står i raka rader längs landsvägen. Odlade i sjok, kvadratiska mattor i olika nyanser av grönt. Olika stadier av växt.</i>
         -> Outside
         
     * [Skogen]
        # backgroundColor:imageLoneTree
-    Vid slutet av vägen kryddas skogen av Fjällbjörk, Daggkåpa, Kabbeleka och vindpinade buskar. Ensligheten ovanför odlingsgränsen, tomma stugor utan el och rinnande vatten.
+    <i>Vid slutet av vägen kryddas skogen av Fjällbjörk, Daggkåpa, Kabbeleka och vindpinade buskar. Ensligheten ovanför odlingsgränsen, tomma stugor utan el och rinnande vatten.</i>
         -> Outside
 
     * [Gården]
     # backgroundColor:imageWood
-    Utanför huset ligger klyvd ved, såg och yxa. Tomma bensindunkar, gamla skotermattor, renskinn.
+    <i>Utanför huset ligger klyvd ved, såg och yxa. Tomma bensindunkar, gamla skotermattor, renskinn.</i>
         -> Outside
     
     * [Huset]
@@ -36,15 +36,15 @@
 # clear
 # backgroundColor:imageFloor
 
-- Inuti huset finns märken ristade på väggarna. Det hänger tavlor på människor som inte längre lever. Trasmattor klär golvet tillsammans med en flaska tändvätska, spisen, brasved och döda insekter.
+- <i>Inuti huset finns märken ristade på väggarna. Det hänger tavlor på människor som inte längre lever. Trasmattor klär golvet tillsammans med en flaska tändvätska, spisen, brasved och döda insekter.</i>
 
-Huset tillhörde ett hemman, men nu är delar av marken runtom avsåld för att täcka skulder och inköp. Träd byttes mot en ny fyrhjuling. Myrmarker fick stå för reparationer efter stormen Gudrun. 
+<i>Huset tillhörde ett hemman, men nu är delar av marken runtom avsåld för att täcka skulder och inköp. Träd byttes mot en ny fyrhjuling. Myrmarker fick stå för reparationer efter stormen Gudrun.</i> 
 
-Folk har levt där inne. Nu är det endast ett hem för minnen av våld och dem som jagar ett par veckor på år. 
+<i>Folk har levt där inne. Nu är det endast ett hem för minnen av våld och dem som jagar ett par veckor per år. </i>
 
  ....
 
-Tidigt nästa morgon tar sig Tove dit.
+<i>Tidigt nästa morgon tar sig Tove dit.</i>
 
     * Till jaktstugan -> jaktstugan
     
@@ -87,7 +87,7 @@ Tidigt nästa morgon tar sig Tove dit.
     ~ missed_reindeer = true
     Men usch :O, skönt att det gick bra. <>
 
-- Mamma hälsade förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten.
+- Mamma hälsar förresten att du ska skynda dig hem. Tycker det är idiotiskt att du ska hjälpa pappa i skogen. Hon tror typ att du kommer bli skjuten under älgjakten.
 
     * Hon överreagerar jämt. Pappa har bett mig hjälpa till med jakten i två år nu, men jag har inte kunnat förrän nu. Det betyder mycket för honom nu när farfar inte orkar längre. Som om det är en viktig familjeritual eller nått. :/
 

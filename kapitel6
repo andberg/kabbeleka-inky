@@ -10,7 +10,7 @@
 # clear
 # backgroundColor:light
 
-- <i>Skogen är tyst. Kuno kastar sin tandpetare på glöden och Tove lägger på mer ved. Pappan har lagt sig på liggunderlaget och tittar upp.</i> 
+- Skogen är tyst. Kuno kastar sin tandpetare på glöden och Tove lägger på mer ved. Pappan har lagt sig på liggunderlaget och tittar upp. 
 
 "Jaktstugan brann för 19 år sedan. Minns du det Johan? Jag tror det var året du föddes Tove. Halva stugan fick rivas och byggas om, men det var nog lika bra, dom väggarna hade sett för mycket elände."
 
@@ -20,15 +20,15 @@
 
 - "Vi härstammar delvis från en gammal rysk ätt, visste du det Tove?"
 
-    * Ja, men jag vet inte så mycket om det.
-    * Nej, pappa berättar ju nästan aldrig om sånt.
+    * "Ja, men jag vet inte så mycket om det."
+    * "Nej, pappa berättar ju nästan aldrig om sånt."
 
 - "De kom invandrande från Finland under mitten av 1800-talet för att se om det fanns någon jord att bruka och bosatte sig inte långt härifrån. Det är deras nedärvda mark vi sitter på nu. Sen har vi så klart blivit uppblandade med andra folk under åren, nybyggare och samer, men jag fick alltid lära mig att den ryska genen var stark och fick det att växa hår på våra tungor."
 
-    * Men allt sånt är väl bara vidskeplighet?
+    * "Men allt sånt är väl bara vidskeplighet?"
     "Det mesta är förstås bara strunt. Men inte allt. <>
     
-    * Jag har alltid kännt att det är något speciellt med vår släkt.
+    * "Jag har alltid kännt att det är något speciellt med vår släkt."
     ~ wild++
     "Det förvånar mig inte. <>
 
@@ -42,7 +42,7 @@ Nåja, nog om ungdomen, jag tänkte berätta en sann berättelse om far min, den
 # clear
 # backgroundColor:imageSnow
 
-- "Efter att ha ruskat av sig den sista snön, som låg gnistrande vit över fjällen, ämnade april just gå till vila för året, medan maj gnuggade sömnen ur ögonen med milda fläktar. Blygt rodnande sneglade en ny dag fram under lugg över biktande vidder i nordöst, där Räker reste sin monumentala urtidshjässa och spanade ut över Björkfjällets småknattar i söder."
+- <i>"Efter att ha ruskat av sig den sista snön, som låg gnistrande vit över fjällen, ämnade april just gå till vila för året, medan maj gnuggade sömnen ur ögonen med milda fläktar. Blygt rodnande sneglade en ny dag fram under lugg över biktande vidder i nordöst, där Räker reste sin monumentala urtidshjässa och spanade ut över Björkfjällets småknattar i söder."</i>
 
 ...
 

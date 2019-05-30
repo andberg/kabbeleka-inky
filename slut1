@@ -1,7 +1,15 @@
 === slut1 ===
 # save
 # clear
+# backgroundColor:dark
+
+* "Nu Tove ska vi avsluta jakten."
+    -> slut1_end
+    
+=== slut1_end ===
+# save
+# clear
 # backgroundColor:ending-1
 
- * Epilog
-    -> epilog
+* Credits
+-> credits 

@@ -12,7 +12,7 @@
 
 * PAPPA BERÄTTAR
 
-- ”En gång. Ljusa unga armar i min mun. Jag tog sönder ett ben i taget och ersätta dem med rester. Hon visade skräck, vanvett och rädslan. Jag såg min bild i hennes öga och så kyla. Och sedan blod. Hennes blod i min mun, mina armar om hennes kött. 
+- ”En gång. Ljusa unga armar i min mun. Jag tog sönder ett ben i taget och ersatte dem med rester. Hon visade skräck, vanvett och rädslan. Jag såg min bild i hennes öga och så kyla. Och sedan blod. Hennes blod i min mun, mina armar om hennes kött. 
 Jag stannade med henne i dagar, var kvar i hennes öga. Hon var min då."
 
 * >>
@@ -22,16 +22,16 @@ Jag stannade med henne i dagar, var kvar i hennes öga. Hon var min då."
 
 TOVES ANDRA KVÄLL
 
-- Bergsvägg, täckt av lavar. Stam och koda. Sänker huvudet ner, mot mossa, jord, fjällbjörk och enbuskar. Pölar. Det regnar. Kabbeleka, kabbeleka och sedan forsen. Varv åker vattnet. I virveln. Skulle jag känna kylan nu? Kliver ner i den strida strömmen, men står ännu vid stranden. Inte tillräckligt djupt ännu. Skum och vattnets styrka, det vill mig i alla fall något, det sträcker sig mot mig och vill mig ner. Gömma mig i sig och möta mitt våld med sina klippor. Begrava min vårdslöshet. 
+- <i>Bergsvägg täckt av lavar. Stam och koda. Sänker huvudet ner mot mossa, jord, fjällbjörk och enbuskar. Pölar. Det regnar. Kabbeleka, kabbeleka och sedan forsen. Skulle jag känna vattnets kyla nu? Skulle vattnet kunna begrava min vårdslöshet. </i>
 
-Men jag tar bara. Tvättar mig om munnen, händerna. Rött. 
+<i>Men jag tvättar mig bara om munnen, händerna. Rött.</i>
 
 * ”Du får mig inte nu”, tänker jag.  
 
 # clear
 # backgroundColor:fur
 
-- Jag sätter mig vid resterna en stund och väntar. Inget händer. Jag lämnar ett avtryck i jorden där jag sitter. Hårda knän nedtryckta i leran. För långa ben för att vara en människas, men vad skulle de annars tillhöra? Pälsbeklädd, någon slags vilde? 
+- <i>Jag sätter mig vid resterna en stund och väntar. Inget händer. Jag lämnar ett avtryck i jorden där jag sitter. Hårda knän nedtryckta i leran. För långa ben för att vara en människas, men vad skulle de annars tillhöra? Pälsbeklädd, någon slags vilde?<i>
 
 * PAPPA BERÄTTAR
 
@@ -43,14 +43,14 @@ Inte alltid, ibland hoppade det över generationer, som med min farfar. Men ofta
 # clear
 # backgroundColor:imageFireBlood
 
-- Ett pulserande i matstrupen, där börjar det. Jag känner knivarna i mig, skär upp köttet, fördelar om det och drar åt. Sedan benen ska växa, jag ska bli större. Benen blir längre och armarna. Händerna deformeras och klor. Sist huden och ansiktet, det nya ansiktet. Jag kan inte känna på mig med mina nya händer, jag känner inget längre. Knivarna har arrangerat om och skulpterat. 
+- <i>Ett pulserande i matstrupen, där börjar det. Jag känner knivarna i mig, skär upp köttet, fördelar om det och drar åt. Sedan benen ska växa, jag ska bli större. Benen blir längre och armarna. Händerna deformeras och klor. Sist huden och ansiktet, det nya ansiktet. Jag kan inte känna på mig med mina nya händer, jag känner inget längre. Knivarna har arrangerat om och skulpterat.</i>
 
 * ”Du kan inte göra annat än att genomlida. Jag vakar över dig, det är alltid värst de första gångerna. Du kommer vänja dig.”
 
 - Tove ser färger, nyanser hon inte kunnat skönja tidigare. Bakom träden, ett fjäll. 
 
 
-* PAPPAN BERÄTTAR:
+* NÄSTA MORGON
 
 # clear
 # backgroundColor:dark-green
@@ -62,15 +62,23 @@ Det är så svårt att prata om det. Det finns inget jag kan säga om det jag ä
 
 - "Nej."
 
-* "Kan vi inte gå till någon, be om hjälp?" -> endChoices
+* "Kan vi inte gå till någon, be om hjälp?" 
+
+-> endChoices
 
 === endChoices ===
 
-- "Ingen får vara i närheten av dig när det händer Tove. Lova mig att du inte försöker!"
+- "Ingen får vara i närheten av dig när det händer Tove. Lova mig det!"
 
-* "Men, vi måste försöka få hjälp av någon! Vi kan inte fortsätta... jag kommer bli galen!"  -> slut3
+* "Men, vi måste försöka få hjälp av någon! Vi kan inte fortsätta... jag kommer bli galen!"  
 
-* "Jag förstår, men jag kan inte leva så här hela livet! Laila och Nila... "  -> slut2 
+    -> slut3
 
-* "Jag vet inte pappa. Men kommer behöva dig nu." -> slut1
+* "Jag förstår, men jag kan inte leva så här hela livet! Laila och Nila... " 
+
+-> slut2 
+
+* "Jag vet inte vad jag ska göra pappa... Vad händer nu?" 
+
+-> slut1
 
