@@ -5,24 +5,41 @@
 
 - "Du kommer inte bli galen Tove, du har mig. Vi tar oss igenom detta tillsammans!"
 
-* "På samma sätt som du och mamma tog er igenom er kris!? Jag vet hur du är."
+    * "På samma sätt som du och mamma[?"] tog er igenom er kris!? Jag vet hur du är."
+    
+    "Men det här är inte samma sak!"
+    
+        ** "Nej, det här är värre.["]<> 
+        ** "Klar det inte är sammma sak!["]<>
+    
+    -- <> Jag kommer aldrig träffa mamma igen, aldrig Laila eller ... eller Nila. Aldrig ett normalt liv med jobb, eller barn...<>
+    
+    * "Jag är redan galen!["] Allt det här är galet."
+    
+    "Du är inte galen. Inte än. Jag hjälper dig."
+    
+        ** "Du är i alla fall helt från vettet.["]<>
+        ** "Jag är inte säker på något längre.["] Vem är jag ens?<>
+        
+- <> Hur kunde du skaffa barn när du visste att detta skulle kunna hända?!"
 
-- "Men det här är inte samma sak!"
+"Din mamma... jag älskade verkligen henne, jag trodde det kanske skulle sluta med mig... mitt våld... "
 
-* "Nej, det här är värre. Jag kommer aldrig träffa mamma igen, aldrig Laila eller ... eller Nila. Aldrig ett normalt liv med jobb, eller barn... Hur kunde du skaffa barn när du visste att detta skulle kunna hända?!"
-
-- "Din mamma... jag älskade verkligen henne, jag trodde det kanske skulle sluta med mig... mitt våld... "
-
-* "Ditt våld ja! Det var det som fick mamma att flytta!"
+    * "Ditt våld ja!["] Det var det som fick mamma att flytta!"
+    * "Och nu är det mitt!"
 
 - "..."
 
-* "Det finns inget du kan säga pappa, gå härifrån! Jag känner DET inom mig igen. Jag vill vara ifred!"
+    * "Det finns inget du kan säga pappa[."], gå härifrån! Jag känner DET inom mig igen. Jag vill vara ifred!"
+    * "Gå innan jag gör något jag kommer ångra.["] Du vet vad jag är nu. Vad jag kan göra.
 
 - "Jag kan inte lämna dig ensam förstår du väl!"
 
-* "Då går jag."
+    * "Då går jag."
+    * "Du måste.["] Vi ska åt olika håll du och jag.
+    * "Det är inte du som bestämmer längre.["] Det är DET."
 
+-   * >>
 # clear
 # save
 # backgroundColor:grey
@@ -31,6 +48,7 @@
 
 <i>Mina andetag är stadiga och jag vill inte sluta röra mig, måste ständigt vara på väg framåt. </i>
 
+<<<<<<< HEAD
 * <i>Stannar jag kommer den andra impulsen av att riva och slita. </i>
   -> ending3_dark
  
@@ -39,8 +57,9 @@
  # clear
  # stopMusic
  # backgroundColor:dark
+
+* Stannar jag kommer den andra impulsen, att riva och slita. 
  
- * >>
     -> ending3
     
 === ending3 ===
