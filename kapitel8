@@ -63,7 +63,7 @@
 # backgroundColor:purple
 # music:nastr.mp3
 
-"Tove, vakna, vi måste ta oss tillbaka."
+- "Tove, vakna, vi måste ta oss tillbaka."
 
 <i>Det är tidig morgon, skogen är fortfarande mörkt. Det är kallt ute. Kroppen ömmar, munnen är torr.</i>
 
@@ -88,11 +88,14 @@
 	"Vad som alltid händer den förstfödde i vår släkt. När vi blir runt 20 så förvandlas vi. Jag fick höra att det var en förbannelse som lades på vår släkt, men jag tror det är generna."
     -> Awakening
 
-*  >>  -> AfterAwakening
+*  >>  
+    -> AfterAwakening
     
 === AfterAwakening ===
 #clear 
 # backgroundColor:purple-lighter-2
+
+- 
 
     * {wild <= 0} "Men …"
     
@@ -129,7 +132,8 @@
 
 Och du kommer alltid ha djuret, lita till djuret Tove, det är din starkaste röst."
 
-* >> ->ToveWontHuntToday
+* >> 
+    ->ToveWontHuntToday
 
 === ToveWontHuntToday ===
 
@@ -137,15 +141,20 @@ Och du kommer alltid ha djuret, lita till djuret Tove, det är din starkaste rö
 # clear
 # backgroundColor:dark
 # img: Spokbjorn.jpg
-
+- 
 * >> 
-
-
+    -> ToveWontHuntToday_2
+    
+=== ToveWontHuntToday_2 ===
 # clear
 # backgroundColor:dark
-** >> 
 
+- 
 
+* >> 
+    -> ToveWontHuntToday_3
+
+=== ToveWontHuntToday_3 ===
 # clear
 # backgroundColor:dark-green
 

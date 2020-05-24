@@ -1,206 +1,206 @@
 body {
-    font-family: 'Arbutus Slab', serif;
-    background-color: #A2B9AD;
-    color: black;
-    transition: background-color 1s ease;
+  font-family: 'Arbutus Slab', serif;
+  background-color: #a2b9ad;
+  color: black;
+  transition: background-color 1s ease;
 }
 
 body.dark {
-    background-color: black;
-    color: white;
-    transition: background-color 1s ease;
+  background-color: black;
+  color: white;
+  transition: background-color 1s ease;
 }
 
 body.dark a {
-    color: white;
+  color: white;
 }
 
 body.dark p {
-    color: white;
+  color: white;
 }
 
 body.dark a:hover {
-    background-color: #A2B9AD;
+  background-color: #a2b9ad;
 }
 
 body.dark-green {
-    background-color: #526D5F;
-    color: white;
-    transition: background-color 1s ease;
+  background-color: #526d5f;
+  color: white;
+  transition: background-color 1s ease;
 }
 
 body.purple {
-    background-color: #1c1b21;
-    color: white;
-    transition: background-color 1s ease;
+  background-color: #1c1b21;
+  color: white;
+  transition: background-color 1s ease;
 }
 
 body.purple-lighter {
-    background-color: #49484f;
-    color: white;
-    transition: background-color 1s ease;
+  background-color: #49484f;
+  color: white;
+  transition: background-color 1s ease;
 }
 
 body.purple-lighter-2 {
-    background-color: #5d5b64;
-    color: white;
-    transition: background-color 1s ease;
+  background-color: #5d5b64;
+  color: white;
+  transition: background-color 1s ease;
 }
 
 body.grey {
-    background-color: #8C807D;
-    color: black;
-    transition: background-color 1s ease;
+  background-color: #8c807d;
+  color: black;
+  transition: background-color 1s ease;
 }
 
 body.imageForest {
-    background: url(./skog-i-rader.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./skog-i-rader.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.imageWood {
-    background: url(./Staplad-ved.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Staplad-ved.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.imageLoneTree {
-    background: url(./ensligt-trad.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./ensligt-trad.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.imageSnow {
-    background: url(./vit-sno.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./vit-sno.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.imageFloor {
-    background: url(./Rispor-i-golvet.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Rispor-i-golvet.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.fur {
-    background: url(./fur.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./fur.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.imageFloor p {
-    color: red;
+  color: red;
 }
 
 body.imageFloor a {
-    color: red;
+  color: red;
 }
 
 body.imageFireBlood {
-    background: url(./Eld-och-Blod.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Eld-och-Blod.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.imageFireBlood-fire {
-    background: url(./Eld-och-Blod-2.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Eld-och-Blod-2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.imageFireBlood-blood {
-    background: url(./Eld-och-Blod-3.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Eld-och-Blod-3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.blue-blood {
-    background: url(./Eld-och-Blod-bla.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Eld-och-Blod-bla.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.ending-3 {
-    background: url(./Slut3.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Slut3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.ending-2 {
-    background: url(./Slut1.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Slut1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.ending-1 {
-    background: url(./Slut2.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: opacity 0.9s;
-    transition: background 1s ease;
+  background: url(./Slut2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: opacity 0.9s;
+  transition: background 1s ease;
 }
 
 body.sms p {
-    position: relative;
-    padding: 15px;
-    background: linear-gradient(#8ED47E, #8EE67E);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
-    -moz-box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
-    box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
+  position: relative;
+  padding: 15px;
+  background: linear-gradient(#8ed47e, #8ee67e);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
+  box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.57);
 }
 
 /*body.sms p:before {
@@ -215,66 +215,72 @@ body.sms p {
     width: 0;
 }*/
 h1 {
-    text-indent: 50px;
-    font-weight: lighter;
+  text-indent: 50px;
+  font-weight: lighter;
 }
 
 video {
-    width: 100%;
-    max-width: 1200px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 img {
-    width: auto;
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .container {
-    display: block;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 150px;
 }
 
-p, a {
-    line-height: 1.7em;
-    font-size: 1rem;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 2rem;
-    color: black;
+p,
+a {
+  line-height: 1.7em;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: black;
 }
 
-@media (min-width:864px) {
-    p, a {
-        font-size: 1.3rem;
-    }
-
+@media (min-width: 864px) {
+  p,
+  a {
+    font-size: 1.3rem;
+  }
 }
 
-p, img, video {
-    opacity: 0.0;
-    transition: opacity 1.0s;
+p,
+img,
+video {
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 video {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
-p.show, img.show, video.show {
-    opacity: 1.0;
+p.show,
+img.show,
+video.show {
+  opacity: 1;
 }
 
 p.choice {
-    text-indent: 30px;
+  text-indent: 30px;
 }
 
 a:hover {
-    background-color: white;
+  background-color: white;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }

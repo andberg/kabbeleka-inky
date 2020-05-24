@@ -34,8 +34,6 @@ VAR missed_reindeer = false
     * Fortsätt påbörjat spel
         -> load
         
-    *   sluten
-        -> endChoices
 
 === load ===
 # load
