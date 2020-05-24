@@ -15,81 +15,19 @@
 
 - "Vi ska leva, det är allt."
 
-* "Men jag vill inte leva utan min familj och ... Det är inget liv."
-    -  "... Det kan bli ditt liv. Vårt liv."
-    
-    *** "Jag vill inte leva detta liv med dig!"
-        -> slut2_2
-    
-    *** "Jag antar att det är du och jag. 
-    
-    **** "Vad gör vi nu?"
-        -> slut2_1_2
-      
+* "Men jag vill inte leva utan min familj och ..."
+-> slut2_1
 
-=== slut2_1_2 ===  
+* "Det här var kanske inte riktigt vad jag tänkt mig."
+-> slut2_1
 
-* "Nu avslutar vi jakten."
--> slut2_1_3
+* "Vad gör vi nu?"
+-> slut2_1
 
-
-=== slut2_1_3 ===
-# save
-# clear
-# backgroundColor:dark
-
-    * >>
-     -> slut1
-
-
-=== slut2_2 ===
-# save
-# clear
-
--"Du kanske inte har så mycket till val."
-
-* "Jag kan klara mig själv."
-* "Det kan väl inte du bestämma!"
-
-    -"Du är så envis!"
-    ** "Det har jag ärvt från dig."
-    
-        -"Du har ingen aning om vad som väntar dig... "
-        
-        *** "Det är mycket möjligt, men jag tänker inte bo här uppe själv med dig och aldrig träffa mamma, Laila och Nila igen. Jag kommer hitta ett sätt som inte tvingar mig bort från alla."
-        
-        - "..."
-        
-        **** "Jag förstår att dom inte kan få veta ...allt om mig, men det är ju inte allt jag är."
-            ->slut2_2_0
-
-
-=== slut2_2_0 ===
-* "Och vart tänkte du ta vägen?"
-* "Men det kommer bli allt du är."
-            
-    - "Det vet jag inte ännu."
-            
-    - "Jag förstår. Jag kan inte tvinga dig, men du kommer att komma tillbaks till mig en dag. Kanske inte i år men sen."
-            
-    ** "Kanske."
-        *** "Hejdå pappa, nu måste jag hitta hem."
-            ->slut2_2_1
-
-=== slut2_2_1 ===
-# save
-# clear
-# backgroundColor:dark
- * >>
-    -> slut2_2_2
-    
-=== slut2_2_2 ===
+=== slut2_1 ===
 # save
 # clear
 # backgroundColor:ending-2
 
  * Epilog
     -> epilog2
-    
-    
-    

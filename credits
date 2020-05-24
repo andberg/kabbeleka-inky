@@ -10,7 +10,10 @@ Musik: Anders Hultqvist
 © Rådare/Andrea Berglund
 
 * Börja om
--> kapitel1
+-> reloadGame
 
+=== reloadGame ===
+# clear
+# reloadGame
 
 -> DONE

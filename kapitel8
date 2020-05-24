@@ -48,7 +48,7 @@
 - <i> Tove tvingar upp ögonen, hon rör sig genom skogen. Det är inte eld hon sett, det är fullmånen som kommit fram mellan träden. En tanke om plats infinner sig, men den är snäv, otydlig. Hela hennes uttryck är ohörbar och går inte att verbalisera. Hon tänker, men tankarna rör sig inte längre med ord, utan med känslor. </i>
 <i> Rörelsen i lemmarna tar udden av smärtan. Så länge hon rör sig går den att uthärda. Dofterna mer påtagliga, hon öppnar munnen för att uppfatta mer.</i>
 
-<i>Fortsatt rörelse. En ny kropp närmar sig, hon känner den! Den gör henne inte rädd. Doften känns igen. När den dyker upp i synfältet vaknar kort en del av hjärnan som stängts av. En tanke fyller Tove:</i> 
+<i>Förtsatt rörelse. En ny kropp närmar sig, hon känner den! Den gör henne inte rädd. Doften känns igen. När den dyker upp i synfältet vaknar kort en del av hjärnan som stängts av. En tanke fyller Tove:</i> 
 
 * "Kroppen tillhör en ulv!"
 
@@ -120,12 +120,12 @@
 
     * {violent < 2} "Jag kan inte döda dig!"
     ~ violent--
-    "När tiden kommer så måste du."  <>
+    "När tiden kommer så måste du.  <>
 
     * "Inget av det här!"
     "Vem vill det? <>
 
-- <>"Våldet har vi fötts med. Det går inte att undvika eller bota sig från. Du lär dig leva med våldet. Det kommer att stanna med dig Tove. Det kommer att vara svårt, men jag finns här, skogen och vidderna finns här för dig och dina byten.
+- <>Våldet har vi fötts med. Det går inte att undvika eller bota sig från. Du lär dig leva med våldet. Det kommer att stanna med dig Tove. Det kommer att vara svårt, men jag finns här, skogen och vidderna finns här för dig och dina byten.
 
 Och du kommer alltid ha djuret, lita till djuret Tove, det är din starkaste röst."
 
